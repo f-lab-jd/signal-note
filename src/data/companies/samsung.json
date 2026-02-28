@@ -1,0 +1,96 @@
+{
+  "slug": "samsung",
+  "tickerCode": "005930",
+  "nameKo": "삼성전자",
+  "nameEn": "Samsung Electronics",
+  "market": "KOSPI",
+  "sector": "반도체·전자제품",
+  "metrics": {
+    "marketCap": 4680000,
+    "per": 14.8,
+    "pbr": 1.32,
+    "dividendYield": 2.25,
+    "weekRange52": {
+      "low": 66600,
+      "high": 88800
+    }
+  },
+  "financials": {
+    "annual": [
+      {
+        "year": 2022,
+        "revenue": 3022300,
+        "operatingProfit": 433770,
+        "netIncome": 556540
+      },
+      {
+        "year": 2023,
+        "revenue": 2589400,
+        "operatingProfit": 65670,
+        "netIncome": 154870
+      },
+      {
+        "year": 2024,
+        "revenue": 3008700,
+        "operatingProfit": 326540,
+        "netIncome": 356100
+      }
+    ]
+  },
+  "priceHistory": [
+    {
+      "date": "2024-01-31",
+      "close": 72800
+    },
+    {
+      "date": "2024-02-29",
+      "close": 73400
+    },
+    {
+      "date": "2024-03-29",
+      "close": 82400
+    },
+    {
+      "date": "2024-04-30",
+      "close": 77600
+    },
+    {
+      "date": "2024-05-31",
+      "close": 77700
+    },
+    {
+      "date": "2024-06-28",
+      "close": 81500
+    },
+    {
+      "date": "2024-07-31",
+      "close": 84300
+    },
+    {
+      "date": "2024-08-30",
+      "close": 74500
+    },
+    {
+      "date": "2024-09-30",
+      "close": 72500
+    },
+    {
+      "date": "2024-10-31",
+      "close": 71200
+    },
+    {
+      "date": "2024-11-29",
+      "close": 75800
+    },
+    {
+      "date": "2024-12-30",
+      "close": 79900
+    }
+  ],
+  "consensus": {
+    "targetPrice": 93000,
+    "rating": "매수",
+    "analystCount": 27
+  },
+  "lastUpdated": "2024-12-31"
+}

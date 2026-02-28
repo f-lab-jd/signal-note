@@ -1,0 +1,96 @@
+{
+  "slug": "kakao",
+  "tickerCode": "035720",
+  "nameKo": "카카오",
+  "nameEn": "Kakao",
+  "market": "KOSPI",
+  "sector": "인터넷·콘텐츠",
+  "metrics": {
+    "marketCap": 189000,
+    "per": null,
+    "pbr": 1.2,
+    "dividendYield": null,
+    "weekRange52": {
+      "low": 34200,
+      "high": 61800
+    }
+  },
+  "financials": {
+    "annual": [
+      {
+        "year": 2022,
+        "revenue": 71000,
+        "operatingProfit": 5800,
+        "netIncome": 11200
+      },
+      {
+        "year": 2023,
+        "revenue": 80000,
+        "operatingProfit": 4600,
+        "netIncome": -16500
+      },
+      {
+        "year": 2024,
+        "revenue": 83500,
+        "operatingProfit": 5700,
+        "netIncome": -4200
+      }
+    ]
+  },
+  "priceHistory": [
+    {
+      "date": "2024-01-31",
+      "close": 58200
+    },
+    {
+      "date": "2024-02-29",
+      "close": 59800
+    },
+    {
+      "date": "2024-03-29",
+      "close": 56200
+    },
+    {
+      "date": "2024-04-30",
+      "close": 50500
+    },
+    {
+      "date": "2024-05-31",
+      "close": 46800
+    },
+    {
+      "date": "2024-06-28",
+      "close": 43800
+    },
+    {
+      "date": "2024-07-31",
+      "close": 42350
+    },
+    {
+      "date": "2024-08-30",
+      "close": 37300
+    },
+    {
+      "date": "2024-09-30",
+      "close": 36150
+    },
+    {
+      "date": "2024-10-31",
+      "close": 40150
+    },
+    {
+      "date": "2024-11-29",
+      "close": 43200
+    },
+    {
+      "date": "2024-12-30",
+      "close": 45950
+    }
+  ],
+  "consensus": {
+    "targetPrice": 54000,
+    "rating": "중립",
+    "analystCount": 18
+  },
+  "lastUpdated": "2024-12-31"
+}

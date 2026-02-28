@@ -1,0 +1,96 @@
+{
+  "slug": "hynix",
+  "tickerCode": "000660",
+  "nameKo": "SK하이닉스",
+  "nameEn": "SK hynix",
+  "market": "KOSPI",
+  "sector": "반도체",
+  "metrics": {
+    "marketCap": 1420000,
+    "per": 6.4,
+    "pbr": 1.95,
+    "dividendYield": 1.1,
+    "weekRange52": {
+      "low": 118000,
+      "high": 248500
+    }
+  },
+  "financials": {
+    "annual": [
+      {
+        "year": 2022,
+        "revenue": 446220,
+        "operatingProfit": 68090,
+        "netIncome": 24230
+      },
+      {
+        "year": 2023,
+        "revenue": 327650,
+        "operatingProfit": -77300,
+        "netIncome": -91380
+      },
+      {
+        "year": 2024,
+        "revenue": 668000,
+        "operatingProfit": 232000,
+        "netIncome": 151000
+      }
+    ]
+  },
+  "priceHistory": [
+    {
+      "date": "2024-01-31",
+      "close": 132500
+    },
+    {
+      "date": "2024-02-29",
+      "close": 150800
+    },
+    {
+      "date": "2024-03-29",
+      "close": 177400
+    },
+    {
+      "date": "2024-04-30",
+      "close": 184900
+    },
+    {
+      "date": "2024-05-31",
+      "close": 196200
+    },
+    {
+      "date": "2024-06-28",
+      "close": 234500
+    },
+    {
+      "date": "2024-07-31",
+      "close": 226000
+    },
+    {
+      "date": "2024-08-30",
+      "close": 171900
+    },
+    {
+      "date": "2024-09-30",
+      "close": 183500
+    },
+    {
+      "date": "2024-10-31",
+      "close": 188400
+    },
+    {
+      "date": "2024-11-29",
+      "close": 198200
+    },
+    {
+      "date": "2024-12-30",
+      "close": 212500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 255000,
+    "rating": "매수",
+    "analystCount": 23
+  },
+  "lastUpdated": "2024-12-31"
+}
