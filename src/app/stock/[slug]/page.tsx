@@ -5,6 +5,7 @@ import { RevenueChart } from "@/components/charts/RevenueChart";
 import { CTABanner } from "@/components/layout/CTABanner";
 import { Header } from "@/components/layout/Header";
 import { PageContainer } from "@/components/layout/PageContainer";
+import { ShareButtons } from "@/components/share/ShareButtons";
 import { Card } from "@/components/ui/Card";
 import { ChangeBadge } from "@/components/ui/ChangeBadge";
 import { Footer } from "@/components/ui/Footer";
@@ -24,6 +25,7 @@ const STOCK_OG_IMAGE = {
   width: 1200,
   height: 630,
 } as const;
+const OPEN_GRAPH_LOCALE = "ko_KR";
 
 function normalizeSlug(slug: string): string {
   return slug.trim().toLowerCase();
@@ -45,14 +47,21 @@ function buildMetadata(slug: string): Metadata {
   const company = getCompany(slug);
 
   if (!company) {
+    const title = "기업 정보를 찾을 수 없습니다";
+    const description = "요청하신 종목 페이지를 찾을 수 없습니다.";
+
     return {
-      title: `기업 정보를 찾을 수 없습니다 | ${SITE_SETTINGS.name}`,
-      description: "요청하신 종목 페이지를 찾을 수 없습니다.",
+      title,
+      description,
+      alternates: {
+        canonical: "/",
+      },
       openGraph: {
-        title: `기업 정보를 찾을 수 없습니다 | ${SITE_SETTINGS.name}`,
-        description: "요청하신 종목 페이지를 찾을 수 없습니다.",
+        title: `${title} | 시그널노트`,
+        description,
         type: "website",
-        locale: SITE_SETTINGS.locale,
+        locale: OPEN_GRAPH_LOCALE,
+        url: "/",
         siteName: SITE_SETTINGS.name,
         images: [
           {
@@ -63,20 +72,31 @@ function buildMetadata(slug: string): Metadata {
           },
         ],
       },
+      twitter: {
+        card: "summary_large_image",
+        title: `${title} | 시그널노트`,
+        description,
+        images: ["/opengraph-image"],
+      },
     };
   }
 
-  const title = `${company.nameKo} (${company.tickerCode}) 원페이저 | ${SITE_SETTINGS.name}`;
-  const description = `${company.nameKo} ${company.nameEn}의 핵심 지표, 실적 추이, 컨센서스를 한 페이지에서 확인하세요.`;
+  const title = `${company.nameKo} 분석`;
+  const socialTitle = `${title} | 시그널노트`;
+  const description = `${company.nameKo}(${company.tickerCode}) 핵심 숫자: 시가총액 ${formatCompactKRW(company.metrics.marketCap)}, PER ${formatMultiple(company.metrics.per)}, 배당수익률 ${formatPercent(company.metrics.dividendYield, 2)}. 실적 추이와 컨센서스를 확인하세요.`;
 
   return {
     title,
     description,
+    alternates: {
+      canonical: `/stock/${company.slug}`,
+    },
     openGraph: {
-      title,
+      title: socialTitle,
       description,
       type: "article",
-      locale: SITE_SETTINGS.locale,
+      locale: OPEN_GRAPH_LOCALE,
+      url: `/stock/${company.slug}`,
       siteName: SITE_SETTINGS.name,
       images: [
         {
@@ -86,6 +106,12 @@ function buildMetadata(slug: string): Metadata {
           alt: `${company.nameKo} 종목 OG 이미지`,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: socialTitle,
+      description,
+      images: [`/stock/${company.slug}/opengraph-image`],
     },
   };
 }
@@ -210,6 +236,8 @@ export default async function StockPage({ params }: StockPageProps) {
               </Card>
             </div>
           </Card>
+
+          <ShareButtons shareText={`${company.nameKo} 분석 | 시그널노트`} />
 
           <CTABanner />
         </PageContainer>

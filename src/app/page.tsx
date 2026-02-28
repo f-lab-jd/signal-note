@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { PriceSparkline } from "@/components/charts/PriceSparkline";
+import { CTABanner } from "@/components/layout/CTABanner";
 import { Header } from "@/components/layout/Header";
 import { PageContainer } from "@/components/layout/PageContainer";
+import { ShareButtons } from "@/components/share/ShareButtons";
 import { Card } from "@/components/ui/Card";
 import { Footer } from "@/components/ui/Footer";
 import { SectionHeader } from "@/components/ui/SectionHeader";
@@ -23,6 +25,8 @@ const DASHBOARD_OG_IMAGE = {
   width: 1200,
   height: 630,
 } as const;
+const OPEN_GRAPH_LOCALE = "ko_KR";
+const DASHBOARD_TITLE = "대표 5종목 대시보드";
 
 function getPercentChange(currentValue: number | null, baseValue: number | null): number | null {
   if (currentValue === null || baseValue === null || baseValue === 0) {
@@ -50,17 +54,22 @@ function formatChange(changePercent: number | null): string {
 }
 
 export function generateMetadata(): Metadata {
-  const title = `시그널노트 대시보드 | ${SITE_SETTINGS.name}`;
+  const title = DASHBOARD_TITLE;
+  const socialTitle = `${DASHBOARD_TITLE} | 시그널노트`;
   const description = "국내 대표 5개 기업의 시총, 변동률, 가격 추이를 한눈에 확인하는 대시보드입니다.";
 
   return {
     title,
     description,
+    alternates: {
+      canonical: "/",
+    },
     openGraph: {
-      title,
+      title: socialTitle,
       description,
       type: "website",
-      locale: SITE_SETTINGS.locale,
+      locale: OPEN_GRAPH_LOCALE,
+      url: "/",
       siteName: SITE_SETTINGS.name,
       images: [
         {
@@ -70,6 +79,12 @@ export function generateMetadata(): Metadata {
           alt: "시그널노트 대시보드 OG 이미지",
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: socialTitle,
+      description,
+      images: [DASHBOARD_OG_IMAGE_PATH],
     },
   };
 }
@@ -206,7 +221,11 @@ export default function Home() {
                 <ArrowUpRight aria-hidden className="size-4" />
               </a>
             </div>
+
+            <ShareButtons shareText="시그널노트 — 투자 데이터, 한눈에 보다" />
           </Card>
+
+          <CTABanner />
         </PageContainer>
       </main>
       <Footer />
