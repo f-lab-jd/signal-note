@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 import { getSiteUrl } from "@/lib/site-url";
+
+const pretendard = localFont({
+  src: "../fonts/PretendardVariable.woff2",
+  variable: "--font-pretendard",
+  display: "swap",
+  weight: "100 900",
+});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -88,13 +96,7 @@ export default function RootLayout({
   return (
     <html lang="ko" data-theme="dark">
       <body
-        className={`${inter.variable} font-sans antialiased`}
-        style={
-          {
-            "--font-pretendard":
-              '"Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif',
-          } as React.CSSProperties
-        }
+        className={`${pretendard.variable} ${inter.variable} font-sans antialiased`}
       >
         <Script
           src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js"

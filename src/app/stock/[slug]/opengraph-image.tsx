@@ -42,6 +42,15 @@ function formatMultiple(value: number | null): string {
   return `${formatNumber(value, { maximumFractionDigits: 2 })}배`;
 }
 
+function computePriceChangePercent(company: NonNullable<ReturnType<typeof getCompany>>): number | null {
+  const history = company.priceHistory;
+  if (!history || history.length < 2) return null;
+  const oldest = history[0].close;
+  const latest = history[history.length - 1].close;
+  if (oldest === 0) return null;
+  return ((latest - oldest) / oldest) * 100;
+}
+
 export default async function OpenGraphImage({
   params,
 }: StockOpenGraphImageProps): Promise<ImageResponse> {
@@ -50,6 +59,8 @@ export default async function OpenGraphImage({
   const nameKo = truncateText(company?.nameKo ?? "알 수 없는 기업", MAX_KO_NAME_LENGTH);
   const nameEn = truncateText(company?.nameEn ?? "Unknown Company", MAX_EN_NAME_LENGTH);
   const ticker = company?.tickerCode ?? "----";
+
+  const priceChange = company ? computePriceChangePercent(company) : null;
 
   const metrics = [
     {
@@ -61,8 +72,8 @@ export default async function OpenGraphImage({
       value: company ? formatMultiple(company.metrics.per) : "—",
     },
     {
-      label: "배당수익률",
-      value: company ? formatPercent(company.metrics.dividendYield, 2) : "—",
+      label: "변동률",
+      value: formatPercent(priceChange, 1),
     },
   ].slice(0, 3);
 
