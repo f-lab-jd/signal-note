@@ -14,9 +14,11 @@ interface ShareButtonsProps {
 
 function getButtonClassName(isCopied: boolean): string {
   return [
-    "inline-flex items-center justify-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold",
-    "bg-card text-foreground",
-    isCopied ? "border-accent text-accent" : "border-border hover:border-accent/60",
+    "inline-flex items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-semibold",
+    "bg-background/75 text-foreground shadow-[0_1px_3px_rgba(15,23,42,0.12)] transition-all duration-200",
+    isCopied
+      ? "border-accent bg-accent/12 text-accent"
+      : "border-border/80 hover:-translate-y-0.5 hover:border-accent/55 hover:bg-[var(--surface-card-hover)]",
   ].join(" ");
 }
 
@@ -111,7 +113,10 @@ export function ShareButtons({ shareText = DEFAULT_SHARE_TEXT }: ShareButtonsPro
   };
 
   return (
-    <aside className="rounded-2xl border border-border bg-card/95 p-5 sm:p-6" aria-label="공유 버튼">
+    <aside
+      className="rounded-3xl border border-border/85 bg-[linear-gradient(145deg,color-mix(in_oklab,var(--color-card)_92%,white_8%)_0%,var(--color-card)_65%_100%)] p-5 shadow-[0_8px_28px_rgba(15,23,42,0.08)] sm:p-6"
+      aria-label="공유 버튼"
+    >
       <div className="flex flex-wrap gap-2">
         {isKakaoAvailable ? (
           <button className={getButtonClassName(false)} onClick={handleKakaoShare} type="button">
@@ -122,7 +127,7 @@ export function ShareButtons({ shareText = DEFAULT_SHARE_TEXT }: ShareButtonsPro
 
         <button className={getButtonClassName(false)} onClick={handleXShare} type="button">
           <Share2 aria-hidden className="size-4" />
-          X(Twitter) 공유
+          X 공유
         </button>
 
         <button className={getButtonClassName(copied)} onClick={handleCopyLink} type="button">

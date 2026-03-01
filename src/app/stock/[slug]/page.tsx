@@ -39,10 +39,6 @@ function formatMultiple(value: number | null): string {
   return `${formatNumber(value, { maximumFractionDigits: 2 })}배`;
 }
 
-function formatWeekRange(low: number, high: number): string {
-  return `${formatNumber(low)}원 - ${formatNumber(high)}원`;
-}
-
 function buildMetadata(slug: string): Metadata {
   const company = getCompany(slug);
 
@@ -145,16 +141,23 @@ export default async function StockPage({ params }: StockPageProps) {
     latestClose !== null && previousClose !== null && previousClose !== 0
       ? ((latestClose - previousClose) / previousClose) * 100
       : null;
+  const weekLow = company.metrics.weekRange52.low;
+  const weekHigh = company.metrics.weekRange52.high;
+  const weekRange = weekHigh - weekLow;
+  const weekRangePosition =
+    latestClose !== null && weekRange > 0
+      ? Math.min(Math.max((latestClose - weekLow) / weekRange, 0), 1)
+      : null;
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main className="py-8 sm:py-12">
         <PageContainer className="space-y-6">
-          <Card className="space-y-5">
+          <Card className="space-y-5 border-accent/30 bg-[linear-gradient(130deg,color-mix(in_oklab,var(--color-accent)_16%,transparent)_0%,var(--color-card)_65%_50%,transparent_100%)]">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <p className="text-xs uppercase tracking-[0.18em] text-neutral">Company One-Pager</p>
+                <p className="text-xs uppercase tracking-[0.18em] text-neutral">종목 원페이저</p>
                 <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">{company.nameKo}</h1>
                 <p className="mt-1 text-sm text-neutral">
                   {company.nameEn} · {company.tickerCode}
@@ -169,48 +172,65 @@ export default async function StockPage({ params }: StockPageProps) {
               <MetricBadge label="섹터" value={company.sector} />
             </div>
 
-            <p className="text-xs text-neutral">Last updated: {company.lastUpdated}</p>
+            <p className="text-xs text-neutral">최종 업데이트: {company.lastUpdated}</p>
           </Card>
 
           <Card className="space-y-4">
             <SectionHeader title="핵심 지표" subtitle="시가총액, 밸류에이션, 배당, 52주 범위를 빠르게 점검합니다." />
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-              <Card elevated={false} className="space-y-1 border-border/70 bg-background/40 p-4">
+              <Card elevated={false} className="space-y-1 border-border/70 border-l-4 border-l-accent bg-background/40 p-4">
                 <p className="text-xs text-neutral">시가총액</p>
                 <p className="fin-num text-lg font-semibold">{formatCompactKRW(company.metrics.marketCap)}</p>
               </Card>
-              <Card elevated={false} className="space-y-1 border-border/70 bg-background/40 p-4">
+              <Card elevated={false} className="space-y-1 border-border/70 border-l-4 border-l-up bg-background/40 p-4">
                 <p className="text-xs text-neutral">PER</p>
                 <p className="fin-num text-lg font-semibold">{formatMultiple(company.metrics.per)}</p>
               </Card>
-              <Card elevated={false} className="space-y-1 border-border/70 bg-background/40 p-4">
+              <Card elevated={false} className="space-y-1 border-border/70 border-l-4 border-l-down bg-background/40 p-4">
                 <p className="text-xs text-neutral">PBR</p>
                 <p className="fin-num text-lg font-semibold">{formatMultiple(company.metrics.pbr)}</p>
               </Card>
-              <Card elevated={false} className="space-y-1 border-border/70 bg-background/40 p-4">
+              <Card elevated={false} className="space-y-1 border-border/70 border-l-4 border-l-accent bg-background/40 p-4">
                 <p className="text-xs text-neutral">배당수익률</p>
                 <p className="fin-num text-lg font-semibold">{formatPercent(company.metrics.dividendYield, 2)}</p>
               </Card>
-              <Card elevated={false} className="space-y-1 border-border/70 bg-background/40 p-4">
+              <Card elevated={false} className="space-y-2 border-border/70 border-l-4 border-l-neutral bg-background/40 p-4">
                 <p className="text-xs text-neutral">52주 범위</p>
-                <p className="fin-num text-base font-semibold">
-                  {formatWeekRange(company.metrics.weekRange52.low, company.metrics.weekRange52.high)}
-                </p>
+                <p className="fin-num text-base font-semibold">{formatNumber(weekLow)}원 - {formatNumber(weekHigh)}원</p>
+                <div className="space-y-1.5">
+                  <div className="relative h-2 rounded-full bg-[var(--surface-muted)]">
+                    <div className="absolute inset-0 rounded-full bg-[linear-gradient(90deg,color-mix(in_oklab,var(--color-down)_35%,transparent)_0%,color-mix(in_oklab,var(--color-accent)_25%,transparent)_50%,color-mix(in_oklab,var(--color-up)_35%,transparent)_100%)]" />
+                    {weekRangePosition !== null ? (
+                      <span
+                        aria-hidden
+                        className="absolute top-1/2 size-3 -translate-y-1/2 rounded-full border-2 border-background bg-accent shadow-[0_0_0_2px_color-mix(in_oklab,var(--color-accent)_35%,transparent)]"
+                        style={{ left: `calc(${weekRangePosition * 100}% - 0.375rem)` }}
+                      />
+                    ) : null}
+                  </div>
+                  <div className="fin-num flex items-center justify-between text-[11px] text-neutral">
+                    <span>저점 {formatNumber(weekLow)}원</span>
+                    <span>고점 {formatNumber(weekHigh)}원</span>
+                  </div>
+                  <p className="fin-num text-xs font-semibold text-foreground/90">
+                    {latestClose === null ? "현재가 데이터 없음" : `현재가 ${formatNumber(latestClose)}원`}
+                  </p>
+                </div>
               </Card>
             </div>
           </Card>
 
           <Card className="space-y-4">
-            <SectionHeader title="실적/주가 차트" subtitle="Task 7 차트 컴포넌트를 그대로 사용합니다." />
+            <SectionHeader title="실적/주가 차트" subtitle="연간 실적과 주가 추이를 확인하세요" />
             <div className="grid gap-5 lg:grid-cols-[minmax(0,1.8fr)_minmax(0,1fr)]">
               <div className="min-w-0 space-y-2">
-                <p className="text-xs uppercase tracking-[0.16em] text-neutral">Annual Financials</p>
-                <RevenueChart data={company.financials.annual} />
+                <p className="text-xs uppercase tracking-[0.16em] text-neutral">연간 실적</p>
+                <RevenueChart data={company.financials.annual} height={286} />
               </div>
 
               <div className="min-w-0 space-y-2">
-                <p className="text-xs uppercase tracking-[0.16em] text-neutral">Price Sparkline</p>
-                <PriceSparkline data={company.priceHistory} />
+                <p className="text-xs uppercase tracking-[0.16em] text-neutral">주가 추이</p>
+                <PriceSparkline data={company.priceHistory} height={184} />
               </div>
             </div>
           </Card>

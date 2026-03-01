@@ -37,7 +37,7 @@ function formatAxisValue(value: number): string {
 export function RevenueChart({
   className,
   data,
-  height = 220,
+  height = 250,
   ...props
 }: RevenueChartProps) {
   const [isMounted, setIsMounted] = useState(false);
@@ -101,11 +101,11 @@ export function RevenueChart({
     <div className={classes} {...props}>
       <div className="mb-3 flex flex-wrap items-center gap-3 text-xs text-neutral">
         <span className="inline-flex items-center gap-1.5">
-          <span className="size-2 rounded-full bg-accent" aria-hidden />
+          <span className="size-2.5 rounded-full bg-[var(--color-revenue)]" aria-hidden />
           매출
         </span>
         <span className="inline-flex items-center gap-1.5">
-          <span className="size-2 rounded-full bg-down" aria-hidden />
+          <span className="size-2.5 rounded-full bg-[var(--color-profit)]" aria-hidden />
           영업이익
         </span>
       </div>
@@ -114,13 +114,13 @@ export function RevenueChart({
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={chartData}
-            barCategoryGap="26%"
-            margin={{ top: 6, right: 4, bottom: 0, left: 4 }}
+            barCategoryGap="18%"
+            margin={{ top: 8, right: 6, bottom: 0, left: 4 }}
           >
             <CartesianGrid
               vertical={false}
               strokeDasharray="3 3"
-              stroke="color-mix(in oklab, var(--color-border) 78%, transparent)"
+              stroke="color-mix(in oklab, var(--color-border) 85%, transparent)"
             />
             <XAxis
               dataKey="yearLabel"
@@ -129,7 +129,7 @@ export function RevenueChart({
               tick={{ fill: "var(--color-neutral)", fontSize: 12, fontFamily: "var(--font-inter)" }}
             />
             <YAxis
-              width={54}
+              width={58}
               axisLine={false}
               tickLine={false}
               tickFormatter={formatAxisValue}
@@ -157,16 +157,16 @@ export function RevenueChart({
             <Bar
               dataKey="revenue"
               name="revenue"
-              fill="var(--color-accent)"
-              radius={[6, 6, 0, 0]}
-              maxBarSize={28}
+              fill="var(--color-revenue)"
+              radius={[7, 7, 0, 0]}
+              maxBarSize={36}
             />
             <Bar
               dataKey="operatingProfit"
               name="operatingProfit"
-              fill="var(--color-down)"
-              radius={[6, 6, 0, 0]}
-              maxBarSize={28}
+              fill="var(--color-profit)"
+              radius={[7, 7, 0, 0]}
+              maxBarSize={36}
             />
           </BarChart>
         </ResponsiveContainer>

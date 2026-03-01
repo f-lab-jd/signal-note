@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
+import "./theme-overrides.css";
 import { getSiteUrl } from "@/lib/site-url";
 
 const pretendard = localFont({
@@ -22,6 +23,25 @@ const BRAND_NAME = "시그널노트";
 const DEFAULT_TITLE = `${BRAND_NAME} | 국내 대표 5개 기업 데이터 대시보드`;
 const DEFAULT_DESCRIPTION = "국내 대표 5개 기업의 핵심 지표, 주가 추이, 컨센서스를 한 화면에서 확인하는 투자 데이터 대시보드";
 const KAKAO_JS_KEY = process.env.NEXT_PUBLIC_KAKAO_JS_KEY ?? "";
+const THEME_STORAGE_KEY = "signalnote-theme";
+const THEME_INIT_SCRIPT = `
+  (() => {
+    try {
+      const root = document.documentElement;
+      const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+      const systemTheme = mediaQuery.matches ? "dark" : "light";
+      const storedTheme = window.localStorage.getItem(${JSON.stringify(THEME_STORAGE_KEY)});
+      const resolvedTheme = storedTheme === "light" || storedTheme === "dark"
+        ? storedTheme
+        : "dark";
+
+      root.dataset.systemTheme = systemTheme;
+      root.setAttribute("data-theme", resolvedTheme);
+    } catch (error) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  })();
+`;
 const KAKAO_INIT_SCRIPT = `
   (() => {
     const kakaoJsKey = ${JSON.stringify(KAKAO_JS_KEY)};
@@ -94,7 +114,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" data-theme="dark">
+    <html lang="ko" data-theme="dark" suppressHydrationWarning>
+      <head>
+        <Script id="theme-init" strategy="beforeInteractive">
+          {THEME_INIT_SCRIPT}
+        </Script>
+      </head>
       <body
         className={`${pretendard.variable} ${inter.variable} font-sans antialiased`}
       >
