@@ -1,9 +1,11 @@
-const LOCAL_OG_FONT_URL = new URL("../fonts/Pretendard-Bold.subset.woff", import.meta.url);
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
 const GOOGLE_FONTS_CSS_URL = "https://fonts.googleapis.com/css2";
 const GOOGLE_FONTS_USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
 const DEFAULT_FALLBACK_TEXT =
-  "\uAC00\uB098\uB2E4\uB77C\uB9C8\uBC14\uC0AC\uC544\uC790\uCC28\uCE74\uD0C0\uD30C\uD558ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\u20A9\u0024\u20AC\u00A5\u00A3\u0025\u002B\u002D\u002E\u002C\u003A\u002F";
+  "가나다라마바사아자차카타파하ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789₩$€¥£%+-.,:/"
 
 function normalizeFallbackText(text: string | undefined): string {
   const normalized = text?.trim().slice(0, 240);
@@ -11,13 +13,9 @@ function normalizeFallbackText(text: string | undefined): string {
 }
 
 async function loadLocalSubsetFont(): Promise<ArrayBuffer> {
-  const response = await fetch(LOCAL_OG_FONT_URL);
-
-  if (!response.ok) {
-    throw new Error(`Failed to load local OG subset font: ${response.status}`);
-  }
-
-  return response.arrayBuffer();
+  const fontPath = join(process.cwd(), "src", "fonts", "Pretendard-Bold.subset.woff");
+  const buffer = await readFile(fontPath);
+  return buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength);
 }
 
 function extractFontUrlFromCss(cssText: string): string {

@@ -3,7 +3,7 @@ import { getCompany } from "@/lib/data";
 import { formatCompactKRW, formatNumber, formatPercent } from "@/lib/format";
 import { loadOGFont } from "@/lib/og-font";
 
-export const runtime = "edge";
+export const dynamic = "force-dynamic";
 export const contentType = "image/png";
 export const size = {
   width: 1200,
