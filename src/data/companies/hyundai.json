@@ -6,13 +6,15 @@
   "market": "KOSPI",
   "sector": "자동차",
   "metrics": {
-    "marketCap": 512000,
-    "per": 5.9,
-    "pbr": 0.62,
-    "dividendYield": 3.6,
+    "marketCap": 1380067,
+    "per": 16.94,
+    "pbr": 1.55,
+    "roe": null,
+    "dividendYield": 1.48,
+    "foreignOwnership": 30.35,
     "weekRange52": {
-      "low": 174500,
-      "high": 295500
+      "low": 139300,
+      "high": 687000
     }
   },
   "financials": {
@@ -39,58 +41,66 @@
   },
   "priceHistory": [
     {
-      "date": "2024-01-31",
-      "close": 219500
+      "date": "2025-01-31",
+      "close": 206000
     },
     {
-      "date": "2024-02-29",
-      "close": 238000
+      "date": "2025-02-28",
+      "close": 193000
     },
     {
-      "date": "2024-03-29",
-      "close": 258500
+      "date": "2025-03-31",
+      "close": 197200
     },
     {
-      "date": "2024-04-30",
-      "close": 269500
+      "date": "2025-04-30",
+      "close": 190600
     },
     {
-      "date": "2024-05-31",
-      "close": 267500
+      "date": "2025-05-31",
+      "close": 185300
     },
     {
-      "date": "2024-06-28",
-      "close": 282000
+      "date": "2025-06-30",
+      "close": 203500
     },
     {
-      "date": "2024-07-31",
-      "close": 268000
+      "date": "2025-07-31",
+      "close": 213000
     },
     {
-      "date": "2024-08-30",
-      "close": 244500
+      "date": "2025-08-31",
+      "close": 220000
     },
     {
-      "date": "2024-09-30",
-      "close": 237500
+      "date": "2025-09-30",
+      "close": 215000
     },
     {
-      "date": "2024-10-31",
-      "close": 233000
+      "date": "2025-10-31",
+      "close": 290000
     },
     {
-      "date": "2024-11-29",
-      "close": 226000
+      "date": "2025-11-30",
+      "close": 261500
     },
     {
-      "date": "2024-12-30",
-      "close": 231500
+      "date": "2025-12-31",
+      "close": 296500
+    },
+    {
+      "date": "2026-01-31",
+      "close": 500000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 674000
     }
   ],
   "consensus": {
-    "targetPrice": 305000,
+    "targetPrice": 659231,
     "rating": "매수",
-    "analystCount": 22
+    "analystCount": 5
   },
-  "lastUpdated": "2024-12-31"
+  "lastUpdated": "2026-03-02"
 }

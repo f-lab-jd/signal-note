@@ -8,7 +8,9 @@ export interface CompanyMetrics {
   marketCap: number;
   per: number | null;
   pbr: number | null;
+  roe: number | null;
   dividendYield: number | null;
+  foreignOwnership: number | null;
   weekRange52: {
     low: number;
     high: number;
@@ -46,5 +48,17 @@ export interface CompanyData {
   };
   priceHistory: PricePoint[];
   consensus: CompanyConsensus;
+  lastUpdated: ISODateString;
+}
+
+
+export interface MarketIndex {
+  label: string;
+  value: number;
+  changePercent: number;
+}
+
+export interface MarketData {
+  indices: MarketIndex[];
   lastUpdated: ISODateString;
 }

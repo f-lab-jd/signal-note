@@ -1,0 +1,87 @@
+{
+  "slug": "kt",
+  "tickerCode": "030200",
+  "nameKo": "KT",
+  "nameEn": "KT Corp",
+  "market": "KOSPI",
+  "sector": "통신",
+  "metrics": {
+    "marketCap": 160790,
+    "per": 16.68,
+    "pbr": 0.88,
+    "roe": null,
+    "dividendYield": 3.76,
+    "foreignOwnership": 49.0,
+    "weekRange52": {
+      "low": 36500,
+      "high": 70400
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 48000
+    },
+    {
+      "date": "2025-02-28",
+      "close": 47000
+    },
+    {
+      "date": "2025-03-31",
+      "close": 49600
+    },
+    {
+      "date": "2025-04-30",
+      "close": 51800
+    },
+    {
+      "date": "2025-05-31",
+      "close": 50800
+    },
+    {
+      "date": "2025-06-30",
+      "close": 55700
+    },
+    {
+      "date": "2025-07-31",
+      "close": 55200
+    },
+    {
+      "date": "2025-08-31",
+      "close": 54100
+    },
+    {
+      "date": "2025-09-30",
+      "close": 50500
+    },
+    {
+      "date": "2025-10-31",
+      "close": 49150
+    },
+    {
+      "date": "2025-11-30",
+      "close": 50400
+    },
+    {
+      "date": "2025-12-31",
+      "close": 52600
+    },
+    {
+      "date": "2026-01-31",
+      "close": 56900
+    },
+    {
+      "date": "2026-02-28",
+      "close": 63800
+    }
+  ],
+  "consensus": {
+    "targetPrice": 73250,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

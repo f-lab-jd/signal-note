@@ -1,10 +1,7 @@
-import hyundai from "@/data/companies/hyundai.json";
-import hynix from "@/data/companies/hynix.json";
-import kakao from "@/data/companies/kakao.json";
-import naver from "@/data/companies/naver.json";
-import samsung from "@/data/companies/samsung.json";
 import type { CompanyData } from "@/data/schema";
 import { getAllCompanies, getAllSlugs, getCompany } from "@/lib/data";
+
+const EXPECTED_COUNT = 25;
 
 const REQUIRED_COMPANY_FIELDS: Array<keyof CompanyData> = [
   "slug",
@@ -20,14 +17,12 @@ const REQUIRED_COMPANY_FIELDS: Array<keyof CompanyData> = [
   "lastUpdated",
 ];
 
-const COMPANY_FIXTURES = [samsung, hynix, naver, kakao, hyundai];
-const EXPECTED_SLUGS = ["samsung", "hynix", "naver", "kakao", "hyundai"];
-
 describe("data loading", () => {
-  it("all 5 JSON files include all required CompanyData fields", () => {
-    expect(COMPANY_FIXTURES).toHaveLength(5);
+  it(`all ${EXPECTED_COUNT} companies include all required CompanyData fields`, () => {
+    const companies = getAllCompanies();
+    expect(companies).toHaveLength(EXPECTED_COUNT);
 
-    for (const company of COMPANY_FIXTURES) {
+    for (const company of companies) {
       for (const field of REQUIRED_COMPANY_FIELDS) {
         expect(company).toHaveProperty(field);
       }
@@ -53,15 +48,20 @@ describe("data loading", () => {
     expect(getCompany(undefined)).toBeUndefined();
   });
 
-  it("getAllSlugs() returns 5 slugs", () => {
-    expect(getAllSlugs()).toHaveLength(5);
+  it(`getAllSlugs() returns ${EXPECTED_COUNT} slugs`, () => {
+    expect(getAllSlugs()).toHaveLength(EXPECTED_COUNT);
   });
 
-  it("getAllSlugs() includes all expected slugs", () => {
-    expect(getAllSlugs()).toEqual(expect.arrayContaining(EXPECTED_SLUGS));
+  it("getAllSlugs() includes core slugs", () => {
+    const slugs = getAllSlugs();
+    expect(slugs).toContain("samsung");
+    expect(slugs).toContain("hynix");
+    expect(slugs).toContain("naver");
+    expect(slugs).toContain("kakao");
+    expect(slugs).toContain("hyundai");
   });
 
-  it("getAllCompanies() returns 5 companies", () => {
-    expect(getAllCompanies()).toHaveLength(5);
+  it(`getAllCompanies() returns ${EXPECTED_COUNT} companies`, () => {
+    expect(getAllCompanies()).toHaveLength(EXPECTED_COUNT);
   });
 });

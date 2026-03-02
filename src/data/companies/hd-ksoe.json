@@ -1,0 +1,87 @@
+{
+  "slug": "hd-ksoe",
+  "tickerCode": "009540",
+  "nameKo": "HD한국조선해양",
+  "nameEn": "HD Korea Shipbuilding",
+  "market": "KOSPI",
+  "sector": "조선",
+  "metrics": {
+    "marketCap": 318479,
+    "per": 15.72,
+    "pbr": 2.56,
+    "roe": null,
+    "dividendYield": 2.73,
+    "foreignOwnership": 33.97,
+    "weekRange52": {
+      "low": 183300,
+      "high": 494500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 232000
+    },
+    {
+      "date": "2025-02-28",
+      "close": 214000
+    },
+    {
+      "date": "2025-03-31",
+      "close": 201000
+    },
+    {
+      "date": "2025-04-30",
+      "close": 272000
+    },
+    {
+      "date": "2025-05-31",
+      "close": 316500
+    },
+    {
+      "date": "2025-06-30",
+      "close": 366000
+    },
+    {
+      "date": "2025-07-31",
+      "close": 359000
+    },
+    {
+      "date": "2025-08-31",
+      "close": 406500
+    },
+    {
+      "date": "2025-09-30",
+      "close": 411000
+    },
+    {
+      "date": "2025-10-31",
+      "close": 474000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 410000
+    },
+    {
+      "date": "2025-12-31",
+      "close": 407000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 413500
+    },
+    {
+      "date": "2026-02-28",
+      "close": 450000
+    }
+  ],
+  "consensus": {
+    "targetPrice": 567222,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

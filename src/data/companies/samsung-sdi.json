@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-sdi",
+  "tickerCode": "006400",
+  "nameKo": "삼성SDI",
+  "nameEn": "Samsung SDI",
+  "market": "KOSPI",
+  "sector": "2차전지",
+  "metrics": {
+    "marketCap": 375529,
+    "per": null,
+    "pbr": 1.71,
+    "roe": null,
+    "dividendYield": null,
+    "foreignOwnership": 25.4,
+    "weekRange52": {
+      "low": 157700,
+      "high": 473500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 217345
+    },
+    {
+      "date": "2025-02-28",
+      "close": 219303
+    },
+    {
+      "date": "2025-03-31",
+      "close": 184547
+    },
+    {
+      "date": "2025-04-30",
+      "close": 176000
+    },
+    {
+      "date": "2025-05-31",
+      "close": 168900
+    },
+    {
+      "date": "2025-06-30",
+      "close": 172800
+    },
+    {
+      "date": "2025-07-31",
+      "close": 201000
+    },
+    {
+      "date": "2025-08-31",
+      "close": 207000
+    },
+    {
+      "date": "2025-09-30",
+      "close": 205000
+    },
+    {
+      "date": "2025-10-31",
+      "close": 322000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 299500
+    },
+    {
+      "date": "2025-12-31",
+      "close": 269500
+    },
+    {
+      "date": "2026-01-31",
+      "close": 390000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 466000
+    }
+  ],
+  "consensus": {
+    "targetPrice": 464286,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

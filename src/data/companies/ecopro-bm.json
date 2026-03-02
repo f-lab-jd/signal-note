@@ -1,0 +1,87 @@
+{
+  "slug": "ecopro-bm",
+  "tickerCode": "247540",
+  "nameKo": "에코프로비엠",
+  "nameEn": "EcoPro BM",
+  "market": "KOSDAQ",
+  "sector": "2차전지소재",
+  "metrics": {
+    "marketCap": 216684,
+    "per": 6921.88,
+    "pbr": 12.91,
+    "roe": null,
+    "dividendYield": 0.05,
+    "foreignOwnership": 14.1,
+    "weekRange52": {
+      "low": 81100,
+      "high": 260000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 131000
+    },
+    {
+      "date": "2025-02-28",
+      "close": 119000
+    },
+    {
+      "date": "2025-03-31",
+      "close": 96200
+    },
+    {
+      "date": "2025-04-30",
+      "close": 101500
+    },
+    {
+      "date": "2025-05-31",
+      "close": 89700
+    },
+    {
+      "date": "2025-06-30",
+      "close": 100600
+    },
+    {
+      "date": "2025-07-31",
+      "close": 111100
+    },
+    {
+      "date": "2025-08-31",
+      "close": 121200
+    },
+    {
+      "date": "2025-09-30",
+      "close": 113000
+    },
+    {
+      "date": "2025-10-31",
+      "close": 160000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 149900
+    },
+    {
+      "date": "2025-12-31",
+      "close": 146600
+    },
+    {
+      "date": "2026-01-31",
+      "close": 232000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 221500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 203533,
+    "rating": "중립",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

@@ -2,17 +2,19 @@
   "slug": "kakao",
   "tickerCode": "035720",
   "nameKo": "카카오",
-  "nameEn": "Kakao",
+  "nameEn": "Kakao Corp",
   "market": "KOSPI",
-  "sector": "인터넷·콘텐츠",
+  "sector": "인터넷·플랫폼",
   "metrics": {
-    "marketCap": 189000,
-    "per": null,
-    "pbr": 1.2,
-    "dividendYield": null,
+    "marketCap": 275743,
+    "per": 118.67,
+    "pbr": 2.58,
+    "roe": null,
+    "dividendYield": 0.12,
+    "foreignOwnership": 30.64,
     "weekRange52": {
-      "low": 34200,
-      "high": 61800
+      "low": 36300,
+      "high": 71600
     }
   },
   "financials": {
@@ -39,58 +41,66 @@
   },
   "priceHistory": [
     {
-      "date": "2024-01-31",
-      "close": 58200
+      "date": "2025-01-31",
+      "close": 38350
     },
     {
-      "date": "2024-02-29",
-      "close": 59800
+      "date": "2025-02-28",
+      "close": 43150
     },
     {
-      "date": "2024-03-29",
-      "close": 56200
+      "date": "2025-03-31",
+      "close": 39100
     },
     {
-      "date": "2024-04-30",
-      "close": 50500
+      "date": "2025-04-30",
+      "close": 38250
     },
     {
-      "date": "2024-05-31",
-      "close": 46800
+      "date": "2025-05-31",
+      "close": 42700
     },
     {
-      "date": "2024-06-28",
-      "close": 43800
+      "date": "2025-06-30",
+      "close": 60000
     },
     {
-      "date": "2024-07-31",
-      "close": 42350
+      "date": "2025-07-31",
+      "close": 58000
     },
     {
-      "date": "2024-08-30",
-      "close": 37300
+      "date": "2025-08-31",
+      "close": 62500
     },
     {
-      "date": "2024-09-30",
-      "close": 36150
+      "date": "2025-09-30",
+      "close": 59600
     },
     {
-      "date": "2024-10-31",
-      "close": 40150
+      "date": "2025-10-31",
+      "close": 65100
     },
     {
-      "date": "2024-11-29",
-      "close": 43200
+      "date": "2025-11-30",
+      "close": 58700
     },
     {
-      "date": "2024-12-30",
-      "close": 45950
+      "date": "2025-12-31",
+      "close": 60100
+    },
+    {
+      "date": "2026-01-31",
+      "close": 61400
+    },
+    {
+      "date": "2026-02-28",
+      "close": 62300
     }
   ],
   "consensus": {
-    "targetPrice": 54000,
-    "rating": "중립",
-    "analystCount": 18
+    "targetPrice": 80824,
+    "rating": "매수",
+    "analystCount": 5
   },
-  "lastUpdated": "2024-12-31"
+  "lastUpdated": "2026-03-02"
 }

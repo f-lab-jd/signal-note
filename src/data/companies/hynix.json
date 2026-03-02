@@ -2,17 +2,19 @@
   "slug": "hynix",
   "tickerCode": "000660",
   "nameKo": "SK하이닉스",
-  "nameEn": "SK hynix",
+  "nameEn": "SK Hynix",
   "market": "KOSPI",
   "sector": "반도체",
   "metrics": {
-    "marketCap": 1420000,
-    "per": 6.4,
-    "pbr": 1.95,
-    "dividendYield": 1.1,
+    "marketCap": 7561772,
+    "per": 21.64,
+    "pbr": 7.33,
+    "roe": null,
+    "dividendYield": 0.28,
+    "foreignOwnership": 54.03,
     "weekRange52": {
-      "low": 118000,
-      "high": 248500
+      "low": 162700,
+      "high": 1117000
     }
   },
   "financials": {
@@ -39,58 +41,66 @@
   },
   "priceHistory": [
     {
-      "date": "2024-01-31",
-      "close": 132500
+      "date": "2025-01-31",
+      "close": 199200
     },
     {
-      "date": "2024-02-29",
-      "close": 150800
+      "date": "2025-02-28",
+      "close": 190200
     },
     {
-      "date": "2024-03-29",
-      "close": 177400
+      "date": "2025-03-31",
+      "close": 190700
     },
     {
-      "date": "2024-04-30",
-      "close": 184900
+      "date": "2025-04-30",
+      "close": 177500
     },
     {
-      "date": "2024-05-31",
-      "close": 196200
+      "date": "2025-05-31",
+      "close": 204500
     },
     {
-      "date": "2024-06-28",
-      "close": 234500
+      "date": "2025-06-30",
+      "close": 292000
     },
     {
-      "date": "2024-07-31",
-      "close": 226000
+      "date": "2025-07-31",
+      "close": 273500
     },
     {
-      "date": "2024-08-30",
-      "close": 171900
+      "date": "2025-08-31",
+      "close": 269000
     },
     {
-      "date": "2024-09-30",
-      "close": 183500
+      "date": "2025-09-30",
+      "close": 347500
     },
     {
-      "date": "2024-10-31",
-      "close": 188400
+      "date": "2025-10-31",
+      "close": 559000
     },
     {
-      "date": "2024-11-29",
-      "close": 198200
+      "date": "2025-11-30",
+      "close": 530000
     },
     {
-      "date": "2024-12-30",
-      "close": 212500
+      "date": "2025-12-31",
+      "close": 651000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 909000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 1061000
     }
   ],
   "consensus": {
-    "targetPrice": 255000,
+    "targetPrice": 1292000,
     "rating": "매수",
-    "analystCount": 23
+    "analystCount": 5
   },
-  "lastUpdated": "2024-12-31"
+  "lastUpdated": "2026-03-02"
 }

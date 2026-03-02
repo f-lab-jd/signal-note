@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-fire",
+  "tickerCode": "000810",
+  "nameKo": "삼성화재",
+  "nameEn": "Samsung Fire & Marine",
+  "market": "KOSPI",
+  "sector": "보험",
+  "metrics": {
+    "marketCap": 243859,
+    "per": 13.3,
+    "pbr": 1.21,
+    "roe": null,
+    "dividendYield": 3.68,
+    "foreignOwnership": 55.79,
+    "weekRange52": {
+      "low": 327000,
+      "high": 681000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 381500
+    },
+    {
+      "date": "2025-02-28",
+      "close": 382500
+    },
+    {
+      "date": "2025-03-31",
+      "close": 357500
+    },
+    {
+      "date": "2025-04-30",
+      "close": 374500
+    },
+    {
+      "date": "2025-05-31",
+      "close": 404500
+    },
+    {
+      "date": "2025-06-30",
+      "close": 434000
+    },
+    {
+      "date": "2025-07-31",
+      "close": 440500
+    },
+    {
+      "date": "2025-08-31",
+      "close": 444000
+    },
+    {
+      "date": "2025-09-30",
+      "close": 451500
+    },
+    {
+      "date": "2025-10-31",
+      "close": 441500
+    },
+    {
+      "date": "2025-11-30",
+      "close": 481500
+    },
+    {
+      "date": "2025-12-31",
+      "close": 497000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 501000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 530000
+    }
+  ],
+  "consensus": {
+    "targetPrice": 660357,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

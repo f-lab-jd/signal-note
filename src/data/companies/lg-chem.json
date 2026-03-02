@@ -1,0 +1,87 @@
+{
+  "slug": "lg-chem",
+  "tickerCode": "051910",
+  "nameKo": "LG화학",
+  "nameEn": "LG Chem",
+  "market": "KOSPI",
+  "sector": "화학",
+  "metrics": {
+    "marketCap": 294723,
+    "per": null,
+    "pbr": 1.01,
+    "roe": null,
+    "dividendYield": 0.48,
+    "foreignOwnership": 35.93,
+    "weekRange52": {
+      "low": 181500,
+      "high": 428500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 237500
+    },
+    {
+      "date": "2025-02-28",
+      "close": 234500
+    },
+    {
+      "date": "2025-03-31",
+      "close": 245000
+    },
+    {
+      "date": "2025-04-30",
+      "close": 216000
+    },
+    {
+      "date": "2025-05-31",
+      "close": 197300
+    },
+    {
+      "date": "2025-06-30",
+      "close": 211500
+    },
+    {
+      "date": "2025-07-31",
+      "close": 301500
+    },
+    {
+      "date": "2025-08-31",
+      "close": 277500
+    },
+    {
+      "date": "2025-09-30",
+      "close": 278000
+    },
+    {
+      "date": "2025-10-31",
+      "close": 397500
+    },
+    {
+      "date": "2025-11-30",
+      "close": 374000
+    },
+    {
+      "date": "2025-12-31",
+      "close": 333000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 310500
+    },
+    {
+      "date": "2026-02-28",
+      "close": 417500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 433563,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

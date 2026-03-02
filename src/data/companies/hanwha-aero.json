@@ -1,0 +1,87 @@
+{
+  "slug": "hanwha-aero",
+  "tickerCode": "012450",
+  "nameKo": "한화에어로스페이스",
+  "nameEn": "Hanwha Aerospace",
+  "market": "KOSPI",
+  "sector": "방산",
+  "metrics": {
+    "marketCap": 616183,
+    "per": 21.84,
+    "pbr": 6.83,
+    "roe": null,
+    "dividendYield": 0.59,
+    "foreignOwnership": 44.24,
+    "weekRange52": {
+      "low": 582945,
+      "high": 1398000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 393882
+    },
+    {
+      "date": "2025-02-28",
+      "close": 584915
+    },
+    {
+      "date": "2025-03-31",
+      "close": 617410
+    },
+    {
+      "date": "2025-04-30",
+      "close": 784810
+    },
+    {
+      "date": "2025-05-31",
+      "close": 811000
+    },
+    {
+      "date": "2025-06-30",
+      "close": 848000
+    },
+    {
+      "date": "2025-07-31",
+      "close": 996000
+    },
+    {
+      "date": "2025-08-31",
+      "close": 884000
+    },
+    {
+      "date": "2025-09-30",
+      "close": 1107000
+    },
+    {
+      "date": "2025-10-31",
+      "close": 979000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 852000
+    },
+    {
+      "date": "2025-12-31",
+      "close": 941000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 1300000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 1195000
+    }
+  ],
+  "consensus": {
+    "targetPrice": 1541944,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

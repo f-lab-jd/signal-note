@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-bio",
+  "tickerCode": "207940",
+  "nameKo": "삼성바이오로직스",
+  "nameEn": "Samsung Biologics",
+  "market": "KOSPI",
+  "sector": "바이오",
+  "metrics": {
+    "marketCap": 823053,
+    "per": 66.91,
+    "pbr": 11.05,
+    "roe": null,
+    "dividendYield": null,
+    "foreignOwnership": 12.76,
+    "weekRange52": {
+      "low": 1445253,
+      "high": 1987000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 1590955
+    },
+    {
+      "date": "2025-02-28",
+      "close": 1642466
+    },
+    {
+      "date": "2025-03-31",
+      "close": 1492348
+    },
+    {
+      "date": "2025-04-30",
+      "close": 1548275
+    },
+    {
+      "date": "2025-05-31",
+      "close": 1518840
+    },
+    {
+      "date": "2025-06-30",
+      "close": 1459970
+    },
+    {
+      "date": "2025-07-31",
+      "close": 1570351
+    },
+    {
+      "date": "2025-08-31",
+      "close": 1473216
+    },
+    {
+      "date": "2025-09-30",
+      "close": 1467329
+    },
+    {
+      "date": "2025-10-31",
+      "close": 1797000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 1607000
+    },
+    {
+      "date": "2025-12-31",
+      "close": 1695000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 1745000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 1778000
+    }
+  ],
+  "consensus": {
+    "targetPrice": 2198125,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

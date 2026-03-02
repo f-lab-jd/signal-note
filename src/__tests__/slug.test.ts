@@ -1,6 +1,8 @@
 import { COMPANY_SLUGS, SLUG_TO_TICKER, TICKER_TO_SLUG } from "@/lib/constants";
 import { getCompany } from "@/lib/data";
 
+const EXPECTED_COUNT = 25;
+
 describe("slug and ticker mappings", () => {
   it('SLUG_TO_TICKER["samsung"] is 005930', () => {
     expect(SLUG_TO_TICKER["samsung"]).toBe("005930");
@@ -10,8 +12,8 @@ describe("slug and ticker mappings", () => {
     expect(TICKER_TO_SLUG["005930"]).toBe("samsung");
   });
 
-  it("all 5 slugs have corresponding ticker mappings", () => {
-    expect(COMPANY_SLUGS).toHaveLength(5);
+  it(`all ${EXPECTED_COUNT} slugs have corresponding ticker mappings`, () => {
+    expect(COMPANY_SLUGS).toHaveLength(EXPECTED_COUNT);
 
     for (const slug of COMPANY_SLUGS) {
       expect(SLUG_TO_TICKER[slug]).toBeDefined();
@@ -19,9 +21,9 @@ describe("slug and ticker mappings", () => {
     }
   });
 
-  it("all 5 tickers have corresponding slug mappings", () => {
+  it(`all ${EXPECTED_COUNT} tickers have corresponding slug mappings`, () => {
     const tickers = Object.values(SLUG_TO_TICKER);
-    expect(tickers).toHaveLength(5);
+    expect(tickers).toHaveLength(EXPECTED_COUNT);
 
     for (const ticker of tickers) {
       expect(TICKER_TO_SLUG[ticker]).toBeDefined();

@@ -1,0 +1,87 @@
+{
+  "slug": "amorepacific",
+  "tickerCode": "090430",
+  "nameKo": "아모레퍼시픽",
+  "nameEn": "Amorepacific",
+  "market": "KOSPI",
+  "sector": "화장품",
+  "metrics": {
+    "marketCap": 88558,
+    "per": 66.14,
+    "pbr": 1.94,
+    "roe": null,
+    "dividendYield": 0.82,
+    "foreignOwnership": 26.2,
+    "weekRange52": {
+      "low": 99700,
+      "high": 169000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 129700
+    },
+    {
+      "date": "2025-02-28",
+      "close": 117200
+    },
+    {
+      "date": "2025-03-31",
+      "close": 101400
+    },
+    {
+      "date": "2025-04-30",
+      "close": 124400
+    },
+    {
+      "date": "2025-05-31",
+      "close": 133700
+    },
+    {
+      "date": "2025-06-30",
+      "close": 136700
+    },
+    {
+      "date": "2025-07-31",
+      "close": 134700
+    },
+    {
+      "date": "2025-08-31",
+      "close": 120300
+    },
+    {
+      "date": "2025-09-30",
+      "close": 122300
+    },
+    {
+      "date": "2025-10-31",
+      "close": 120900
+    },
+    {
+      "date": "2025-11-30",
+      "close": 124300
+    },
+    {
+      "date": "2025-12-31",
+      "close": 119500
+    },
+    {
+      "date": "2026-01-31",
+      "close": 138800
+    },
+    {
+      "date": "2026-02-28",
+      "close": 151400
+    }
+  ],
+  "consensus": {
+    "targetPrice": 171529,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

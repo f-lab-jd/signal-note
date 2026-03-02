@@ -1,0 +1,87 @@
+{
+  "slug": "skt",
+  "tickerCode": "017670",
+  "nameKo": "SK텔레콤",
+  "nameEn": "SK Telecom",
+  "market": "KOSPI",
+  "sector": "통신",
+  "metrics": {
+    "marketCap": 171402,
+    "per": 29.21,
+    "pbr": 1.45,
+    "roe": null,
+    "dividendYield": null,
+    "foreignOwnership": 37.89,
+    "weekRange52": {
+      "low": 50400,
+      "high": 89800
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 55400
+    },
+    {
+      "date": "2025-02-28",
+      "close": 56000
+    },
+    {
+      "date": "2025-03-31",
+      "close": 55500
+    },
+    {
+      "date": "2025-04-30",
+      "close": 54300
+    },
+    {
+      "date": "2025-05-31",
+      "close": 51500
+    },
+    {
+      "date": "2025-06-30",
+      "close": 56700
+    },
+    {
+      "date": "2025-07-31",
+      "close": 56100
+    },
+    {
+      "date": "2025-08-31",
+      "close": 54200
+    },
+    {
+      "date": "2025-09-30",
+      "close": 54300
+    },
+    {
+      "date": "2025-10-31",
+      "close": 52300
+    },
+    {
+      "date": "2025-11-30",
+      "close": 53500
+    },
+    {
+      "date": "2025-12-31",
+      "close": 53500
+    },
+    {
+      "date": "2026-01-31",
+      "close": 72500
+    },
+    {
+      "date": "2026-02-28",
+      "close": 79800
+    }
+  ],
+  "consensus": {
+    "targetPrice": 84441,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

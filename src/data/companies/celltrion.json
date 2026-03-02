@@ -1,0 +1,87 @@
+{
+  "slug": "celltrion",
+  "tickerCode": "068270",
+  "nameKo": "셀트리온",
+  "nameEn": "Celltrion",
+  "market": "KOSPI",
+  "sector": "바이오",
+  "metrics": {
+    "marketCap": 551050,
+    "per": 75.28,
+    "pbr": 3.12,
+    "roe": null,
+    "dividendYield": 0.31,
+    "foreignOwnership": 22.99,
+    "weekRange52": {
+      "low": 144866,
+      "high": 251000
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 173089
+    },
+    {
+      "date": "2025-02-28",
+      "close": 177231
+    },
+    {
+      "date": "2025-03-31",
+      "close": 162782
+    },
+    {
+      "date": "2025-04-30",
+      "close": 155366
+    },
+    {
+      "date": "2025-05-31",
+      "close": 155077
+    },
+    {
+      "date": "2025-06-30",
+      "close": 159600
+    },
+    {
+      "date": "2025-07-31",
+      "close": 178900
+    },
+    {
+      "date": "2025-08-31",
+      "close": 167600
+    },
+    {
+      "date": "2025-09-30",
+      "close": 173400
+    },
+    {
+      "date": "2025-10-31",
+      "close": 175600
+    },
+    {
+      "date": "2025-11-30",
+      "close": 185600
+    },
+    {
+      "date": "2025-12-31",
+      "close": 181000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 210000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 238500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 265500,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

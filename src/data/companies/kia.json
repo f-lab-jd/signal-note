@@ -1,0 +1,87 @@
+{
+  "slug": "kia",
+  "tickerCode": "000270",
+  "nameKo": "기아",
+  "nameEn": "Kia Corp",
+  "market": "KOSPI",
+  "sector": "자동차",
+  "metrics": {
+    "marketCap": 802299,
+    "per": 10.43,
+    "pbr": 1.35,
+    "roe": null,
+    "dividendYield": 3.31,
+    "foreignOwnership": 40.23,
+    "weekRange52": {
+      "low": 81300,
+      "high": 212500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 102000
+    },
+    {
+      "date": "2025-02-28",
+      "close": 93200
+    },
+    {
+      "date": "2025-03-31",
+      "close": 92300
+    },
+    {
+      "date": "2025-04-30",
+      "close": 90400
+    },
+    {
+      "date": "2025-05-31",
+      "close": 89400
+    },
+    {
+      "date": "2025-06-30",
+      "close": 96900
+    },
+    {
+      "date": "2025-07-31",
+      "close": 102300
+    },
+    {
+      "date": "2025-08-31",
+      "close": 105800
+    },
+    {
+      "date": "2025-09-30",
+      "close": 100700
+    },
+    {
+      "date": "2025-10-31",
+      "close": 119900
+    },
+    {
+      "date": "2025-11-30",
+      "close": 114100
+    },
+    {
+      "date": "2025-12-31",
+      "close": 121800
+    },
+    {
+      "date": "2026-01-31",
+      "close": 152600
+    },
+    {
+      "date": "2026-02-28",
+      "close": 205500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 212846,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "krafton",
+  "tickerCode": "259960",
+  "nameKo": "크래프톤",
+  "nameEn": "Krafton",
+  "market": "KOSPI",
+  "sector": "게임",
+  "metrics": {
+    "marketCap": 117800,
+    "per": 9.51,
+    "pbr": 1.57,
+    "roe": null,
+    "dividendYield": 0.9,
+    "foreignOwnership": 41.94,
+    "weekRange52": {
+      "low": 173000,
+      "high": 393500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 364000
+    },
+    {
+      "date": "2025-02-28",
+      "close": 343500
+    },
+    {
+      "date": "2025-03-31",
+      "close": 334500
+    },
+    {
+      "date": "2025-04-30",
+      "close": 371500
+    },
+    {
+      "date": "2025-05-31",
+      "close": 369000
+    },
+    {
+      "date": "2025-06-30",
+      "close": 363000
+    },
+    {
+      "date": "2025-07-31",
+      "close": 328500
+    },
+    {
+      "date": "2025-08-31",
+      "close": 327500
+    },
+    {
+      "date": "2025-09-30",
+      "close": 292500
+    },
+    {
+      "date": "2025-10-31",
+      "close": 276000
+    },
+    {
+      "date": "2025-11-30",
+      "close": 257500
+    },
+    {
+      "date": "2025-12-31",
+      "close": 246000
+    },
+    {
+      "date": "2026-01-31",
+      "close": 254000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 248500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 345889,
+    "rating": "매수",
+    "analystCount": 5
+  },
+  "lastUpdated": "2026-03-02"
+}

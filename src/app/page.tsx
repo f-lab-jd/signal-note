@@ -12,12 +12,10 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { SITE_SETTINGS } from "@/lib/constants";
 import { getAllCompanies } from "@/lib/data";
 import { formatCompactKRW, formatNumber } from "@/lib/format";
+import type { MarketData } from "@/data/schema";
+import marketJson from "@/data/market.json";
 
-const MARKET_OVERVIEW = [
-  { label: "KOSPI", value: "2,645.28", changePercent: 0.82 },
-  { label: "KOSDAQ", value: "860.41", changePercent: -0.34 },
-  { label: "USD/KRW", value: "1,328.60", changePercent: 0.15 },
-] as const;
+const marketData = marketJson as MarketData;
 
 const X_FOLLOW_URL = "https://x.com/nadojdya";
 const DASHBOARD_OG_IMAGE_PATH = "/opengraph-image";
@@ -26,7 +24,7 @@ const DASHBOARD_OG_IMAGE = {
   height: 630,
 } as const;
 const OPEN_GRAPH_LOCALE = "ko_KR";
-const DASHBOARD_TITLE = "대표 5종목 대시보드";
+const DASHBOARD_TITLE = "대표 25종목 대시보드";
 
 function getPercentChange(currentValue: number | null, baseValue: number | null): number | null {
   if (currentValue === null || baseValue === null || baseValue === 0) {
@@ -56,7 +54,7 @@ function formatChange(changePercent: number | null): string {
 export function generateMetadata(): Metadata {
   const title = DASHBOARD_TITLE;
   const socialTitle = `${DASHBOARD_TITLE} | 시그널노트`;
-  const description = "국내 대표 5개 기업의 시총, 변동률, 가격 추이를 한눈에 확인하는 대시보드입니다.";
+  const description = "국내 대표 25개 종목의 시총, 변동률, 가격 추이를 한눈에 확인하는 대시보드입니다.";
 
   return {
     title,
@@ -90,7 +88,7 @@ export function generateMetadata(): Metadata {
 }
 
 export default function Home() {
-  const companies = getAllCompanies().slice(0, 5);
+  const companies = getAllCompanies();
   const lastUpdated =
     companies
       .map((company) => company.lastUpdated)
@@ -121,7 +119,7 @@ export default function Home() {
                     ⚡
                   </span>
                 </h1>
-                <p className="text-base text-neutral sm:text-lg">국내 대표 종목 핵심 데이터를 10초 안에 파악하세요</p>
+                <p className="text-base text-neutral sm:text-lg">국내 대표 종목 핵심 데이터를 한눈에 파악하세요</p>
               </div>
 
               <div className="rounded-2xl border border-border/75 bg-background/45 px-4 py-3 backdrop-blur-sm">
@@ -147,11 +145,11 @@ export default function Home() {
           <Card className="space-y-4">
             <SectionHeader
               title="주요 종목"
-              subtitle="대표 5개 종목의 핵심 지표와 단기 흐름을 빠르게 점검합니다."
+              subtitle="섹터별 대표 25개 종목의 핵심 지표와 단기 흐름을 빠르게 점검합니다."
             />
 
             <div className="-mx-1 overflow-x-auto pb-2 sm:mx-0 sm:overflow-visible">
-              <div className="grid grid-flow-col auto-cols-[minmax(78%,1fr)] gap-4 px-1 sm:grid-flow-row sm:grid-cols-2 sm:px-0 xl:grid-cols-5">
+              <div className="grid grid-flow-col auto-cols-[minmax(78%,1fr)] gap-4 px-1 sm:grid-flow-row sm:grid-cols-2 sm:px-0 lg:grid-cols-3 xl:grid-cols-5">
                 {companies.map((company) => {
                   const latestClose = company.priceHistory.at(-1)?.close ?? null;
                   const previousClose = company.priceHistory.at(-2)?.close ?? null;
@@ -204,14 +202,14 @@ export default function Home() {
             <SectionHeader title="시장 한눈에" subtitle="지수와 환율 흐름으로 오늘의 시장 온도를 빠르게 확인합니다." />
 
             <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-              {MARKET_OVERVIEW.map((market) => (
+              {marketData.indices.map((market) => (
                 <Card
                   elevated={false}
                   className="space-y-1 border-border/70 bg-[linear-gradient(145deg,color-mix(in_oklab,var(--color-card)_90%,var(--color-accent)_10%)_0%,color-mix(in_oklab,var(--color-card)_96%,transparent)_100%)] p-5"
                   key={market.label}
                 >
                   <p className="text-xs text-neutral">{market.label}</p>
-                  <p className="fin-num text-xl font-semibold">{market.value}</p>
+                  <p className="fin-num text-xl font-semibold">{formatNumber(market.value, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
                   <p className={`fin-num text-sm font-semibold ${getChangeClassName(market.changePercent)}`}>
                     {formatChange(market.changePercent)}
                   </p>

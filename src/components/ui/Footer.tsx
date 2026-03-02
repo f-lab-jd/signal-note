@@ -27,10 +27,18 @@ export function Footer() {
             >
               네프콘 구독
             </a>
+            <a
+              className="inline-flex items-center rounded-full border border-border/75 bg-background/70 px-3 py-1.5 font-semibold text-foreground transition-colors hover:border-accent/55 hover:text-accent"
+              href={SITE_SETTINGS.companyRequestHref}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              종목 추가 요청
+            </a>
           </div>
         </div>
 
-        <p className="mt-4 text-xs text-neutral">데모 데이터 기준 · {new Date().getFullYear()}년 업데이트</p>
+        <p className="mt-4 text-xs text-neutral">장 마감 후 일별 업데이트 · {new Date().getFullYear()}년</p>
       </div>
     </footer>
   );

@@ -1,0 +1,87 @@
+{
+  "slug": "hanmi-semi",
+  "tickerCode": "042700",
+  "nameKo": "한미반도체",
+  "nameEn": "Hanmi Semiconductor",
+  "market": "KOSPI",
+  "sector": "반도체",
+  "metrics": {
+    "marketCap": 308335,
+    "per": 128.83,
+    "pbr": 46.73,
+    "roe": null,
+    "dividendYield": 0.25,
+    "foreignOwnership": 9.03,
+    "weekRange52": {
+      "low": 58200,
+      "high": 332500
+    }
+  },
+  "financials": {
+    "annual": []
+  },
+  "priceHistory": [
+    {
+      "date": "2025-01-31",
+      "close": 113200
+    },
+    {
+      "date": "2025-02-28",
+      "close": 93500
+    },
+    {
+      "date": "2025-03-31",
+      "close": 68200
+    },
+    {
+      "date": "2025-04-30",
+      "close": 76100
+    },
+    {
+      "date": "2025-05-31",
+      "close": 80400
+    },
+    {
+      "date": "2025-06-30",
+      "close": 102000
+    },
+    {
+      "date": "2025-07-31",
+      "close": 91900
+    },
+    {
+      "date": "2025-08-31",
+      "close": 87000
+    },
+    {
+      "date": "2025-09-30",
+      "close": 96500
+    },
+    {
+      "date": "2025-10-31",
+      "close": 143700
+    },
+    {
+      "date": "2025-11-30",
+      "close": 123600
+    },
+    {
+      "date": "2025-12-31",
+      "close": 127400
+    },
+    {
+      "date": "2026-01-31",
+      "close": 211000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 323500
+    }
+  ],
+  "consensus": {
+    "targetPrice": 235000,
+    "rating": "매수",
+    "analystCount": 0
+  },
+  "lastUpdated": "2026-03-02"
+}

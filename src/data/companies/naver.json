@@ -1,18 +1,20 @@
 {
   "slug": "naver",
   "tickerCode": "035420",
-  "nameKo": "네이버",
-  "nameEn": "NAVER",
+  "nameKo": "NAVER",
+  "nameEn": "NAVER Corp",
   "market": "KOSPI",
-  "sector": "인터넷 플랫폼",
+  "sector": "인터넷·플랫폼",
   "metrics": {
-    "marketCap": 332000,
-    "per": 18.3,
-    "pbr": 1.1,
-    "dividendYield": 0.9,
+    "marketCap": 399190,
+    "per": 18.39,
+    "pbr": 1.4,
+    "roe": null,
+    "dividendYield": 1.03,
+    "foreignOwnership": 39.24,
     "weekRange52": {
-      "low": 160100,
-      "high": 240000
+      "low": 175500,
+      "high": 298000
     }
   },
   "financials": {
@@ -39,58 +41,66 @@
   },
   "priceHistory": [
     {
-      "date": "2024-01-31",
-      "close": 211500
-    },
-    {
-      "date": "2024-02-29",
-      "close": 208000
-    },
-    {
-      "date": "2024-03-29",
-      "close": 198300
-    },
-    {
-      "date": "2024-04-30",
-      "close": 186200
-    },
-    {
-      "date": "2024-05-31",
-      "close": 171800
-    },
-    {
-      "date": "2024-06-28",
-      "close": 170200
-    },
-    {
-      "date": "2024-07-31",
-      "close": 167500
-    },
-    {
-      "date": "2024-08-30",
-      "close": 170900
-    },
-    {
-      "date": "2024-09-30",
-      "close": 178400
-    },
-    {
-      "date": "2024-10-31",
-      "close": 190500
-    },
-    {
-      "date": "2024-11-29",
-      "close": 205000
-    },
-    {
-      "date": "2024-12-30",
+      "date": "2025-01-31",
       "close": 216500
+    },
+    {
+      "date": "2025-02-28",
+      "close": 207000
+    },
+    {
+      "date": "2025-03-31",
+      "close": 191000
+    },
+    {
+      "date": "2025-04-30",
+      "close": 200500
+    },
+    {
+      "date": "2025-05-31",
+      "close": 187500
+    },
+    {
+      "date": "2025-06-30",
+      "close": 262500
+    },
+    {
+      "date": "2025-07-31",
+      "close": 235000
+    },
+    {
+      "date": "2025-08-31",
+      "close": 214500
+    },
+    {
+      "date": "2025-09-30",
+      "close": 268500
+    },
+    {
+      "date": "2025-10-31",
+      "close": 267500
+    },
+    {
+      "date": "2025-11-30",
+      "close": 244000
+    },
+    {
+      "date": "2025-12-31",
+      "close": 242500
+    },
+    {
+      "date": "2026-01-31",
+      "close": 275000
+    },
+    {
+      "date": "2026-02-28",
+      "close": 254500
     }
   ],
   "consensus": {
-    "targetPrice": 250000,
+    "targetPrice": 348667,
     "rating": "매수",
-    "analystCount": 20
+    "analystCount": 5
   },
-  "lastUpdated": "2024-12-31"
+  "lastUpdated": "2026-03-02"
 }
