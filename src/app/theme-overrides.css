@@ -1,0 +1,39 @@
+:root {
+  --surface-background: #f8fafc;
+  --surface-card: #ffffff;
+  --surface-card-hover: #f1f5f9;
+  --surface-muted: #edf2f8;
+  --surface-border: #e2e8f0;
+  --surface-foreground: #0f172a;
+  --surface-neutral: #64748b;
+  --color-revenue: #00d084;
+  --color-profit: #ff915c;
+}
+
+[data-theme="dark"] {
+  --surface-background: #0a1628;
+  --surface-card: #111d33;
+  --surface-card-hover: #1a2a46;
+  --surface-muted: #0f223b;
+  --surface-border: #1e3355;
+  --surface-foreground: #e8eef7;
+  --surface-neutral: #94a3b8;
+  --color-revenue: #00d084;
+  --color-profit: #ffad73;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 10% 0%, color-mix(in oklab, var(--color-accent) 12%, transparent) 0%, transparent 48%),
+    radial-gradient(circle at 85% 12%, color-mix(in oklab, var(--color-down) 9%, transparent) 0%, transparent 42%),
+    linear-gradient(
+      160deg,
+      color-mix(in oklab, var(--surface-background) 92%, white 8%) 0%,
+      color-mix(in oklab, var(--surface-background) 98%, transparent) 40%,
+      var(--surface-background) 100%
+    );
+}
