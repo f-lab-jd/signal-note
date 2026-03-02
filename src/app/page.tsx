@@ -221,10 +221,10 @@ export default function Home() {
           <Card className="space-y-4 border-accent/35 bg-[linear-gradient(130deg,color-mix(in_oklab,var(--color-accent)_20%,transparent)_0%,var(--color-card)_62%_52%,transparent_100%)]">
             <SectionHeader
               title="시그널 구독"
-              subtitle="네프콘 구독과 X 팔로우로 새로운 시그널 업데이트를 놓치지 마세요."
+              subtitle="네프콘 구독과 텔레그램 채널로 새로운 시그널 업데이트를 놓치지 마세요."
             />
 
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-3">
               <a
                 className="inline-flex items-center justify-center gap-1 rounded-full border border-black/10 bg-accent px-4 py-2.5 text-sm font-bold text-black shadow-[0_12px_28px_rgba(0,208,132,0.34)] transition-all duration-200 hover:-translate-y-0.5 hover:brightness-110"
                 href={SITE_SETTINGS.ctaHref}
@@ -232,6 +232,15 @@ export default function Home() {
                 target="_blank"
               >
                 네프콘 구독
+                <ArrowUpRight aria-hidden className="size-4" />
+              </a>
+              <a
+                className="inline-flex items-center justify-center gap-1 rounded-full border border-border/80 bg-background/45 px-4 py-2.5 text-sm font-semibold text-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/60 hover:bg-[var(--surface-card-hover)]"
+                href={SITE_SETTINGS.telegramHref}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                텔레그램 채널
                 <ArrowUpRight aria-hidden className="size-4" />
               </a>
               <a

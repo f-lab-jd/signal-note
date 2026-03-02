@@ -120,6 +120,7 @@ export const SITE_SETTINGS = {
   locale: "ko-KR",
   currency: "KRW",
   ctaLabel: "더 깊은 분석은 시그널노트에서",
-  ctaHref: "https://nepcon.kr",
+  ctaHref: "https://naver.me/xD830HTe",
+  telegramHref: "https://t.me/signal_note",
   companyRequestHref: "https://x.com/nadojdya",
 } as const;

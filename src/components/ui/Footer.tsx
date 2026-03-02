@@ -20,6 +20,14 @@ export function Footer() {
               X @nadojdya
             </a>
             <a
+              className="inline-flex items-center rounded-full border border-border/75 bg-background/70 px-3 py-1.5 font-semibold text-foreground transition-colors hover:border-accent/55 hover:text-accent"
+              href={SITE_SETTINGS.telegramHref}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              텔레그램 돈 되는 숫자
+            </a>
+            <a
               className="inline-flex items-center rounded-full border border-accent/40 bg-accent/12 px-3 py-1.5 font-semibold text-foreground transition-colors hover:border-accent/70"
               href={SITE_SETTINGS.ctaHref}
               rel="noopener noreferrer"

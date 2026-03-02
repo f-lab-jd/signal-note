@@ -21,6 +21,14 @@ export function Header() {
             홈
           </Link>
           <a
+            className="inline-flex items-center rounded-full border border-transparent px-3 py-1.5 transition-all duration-200 hover:border-border/70 hover:bg-[var(--surface-card-hover)] hover:text-foreground"
+            href={SITE_SETTINGS.telegramHref}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            텔레그램
+          </a>
+          <a
             className="inline-flex items-center rounded-full border border-accent/45 bg-accent/12 px-3 py-1.5 font-semibold text-foreground transition-all duration-200 hover:border-accent/70 hover:bg-accent/20"
             href={SITE_SETTINGS.ctaHref}
             rel="noopener noreferrer"
