@@ -20,8 +20,8 @@ const inter = Inter({
 });
 
 const BRAND_NAME = "시그널노트";
-const DEFAULT_TITLE = `${BRAND_NAME} | 국내 대표 5개 기업 데이터 대시보드`;
-const DEFAULT_DESCRIPTION = "국내 대표 5개 기업의 핵심 지표, 주가 추이, 컨센서스를 한 화면에서 확인하는 투자 데이터 대시보드";
+const DEFAULT_TITLE = `${BRAND_NAME} | 국내 대표 25개 종목 데이터 대시보드`;
+const DEFAULT_DESCRIPTION = "국내 대표 25개 종목의 핵심 지표, 주가 추이, 컨센서스를 한 화면에서 확인하는 투자 데이터 대시보드";
 const KAKAO_JS_KEY = process.env.NEXT_PUBLIC_KAKAO_JS_KEY ?? "";
 const THEME_STORAGE_KEY = "signalnote-theme";
 const THEME_INIT_SCRIPT = `
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     siteName: BRAND_NAME,
     images: [
       {
-        url: "/opengraph-image",
+        url: "/api/og",
         width: 1200,
         height: 630,
         alt: "시그널노트 대시보드 OG 이미지",
@@ -102,9 +102,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@nadojdya",
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
-    images: ["/opengraph-image"],
+    images: ["/api/og"],
   },
 };
 

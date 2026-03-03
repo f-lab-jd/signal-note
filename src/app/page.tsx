@@ -18,7 +18,6 @@ import marketJson from "@/data/market.json";
 const marketData = marketJson as MarketData;
 
 const X_FOLLOW_URL = "https://x.com/nadojdya";
-const DASHBOARD_OG_IMAGE_PATH = "/opengraph-image";
 const DASHBOARD_OG_IMAGE = {
   width: 1200,
   height: 630,
@@ -56,6 +55,28 @@ export function generateMetadata(): Metadata {
   const socialTitle = `${DASHBOARD_TITLE} | 시그널노트`;
   const description = "국내 대표 25개 종목의 시총, 변동률, 가격 추이를 한눈에 확인하는 대시보드입니다.";
 
+  // Build dynamic OG URL from latest KOSPI data
+  const kospi = marketData.indices.find((i) => i.label === "KOSPI");
+  const kospiValue = kospi?.value != null
+    ? new Intl.NumberFormat("ko-KR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(kospi.value)
+    : "시그널노트";
+  const kospiChange = kospi?.changePercent != null && kospi.changePercent !== 0
+    ? (kospi.changePercent > 0 ? "+" : "") +
+      new Intl.NumberFormat("ko-KR", { minimumFractionDigits: 1, maximumFractionDigits: 2 }).format(kospi.changePercent) + "%"
+    : "0%";
+  const kospiSign = kospi?.changePercent == null || kospi.changePercent === 0
+    ? "neutral"
+    : kospi.changePercent > 0 ? "up" : "down";
+
+  const ogParams = new URLSearchParams({
+    title: kospiValue,
+    v1: "KOSPI",
+    n1: kospiChange,
+    sign: kospiSign,
+    badge: "오늘의 시장",
+  });
+  const ogImageUrl = `/api/og?${ogParams.toString()}`;
+
   return {
     title,
     description,
@@ -71,7 +92,7 @@ export function generateMetadata(): Metadata {
       siteName: SITE_SETTINGS.name,
       images: [
         {
-          url: DASHBOARD_OG_IMAGE_PATH,
+          url: ogImageUrl,
           width: DASHBOARD_OG_IMAGE.width,
           height: DASHBOARD_OG_IMAGE.height,
           alt: "시그널노트 대시보드 OG 이미지",
@@ -80,9 +101,10 @@ export function generateMetadata(): Metadata {
     },
     twitter: {
       card: "summary_large_image",
+      site: "@nadojdya",
       title: socialTitle,
       description,
-      images: [DASHBOARD_OG_IMAGE_PATH],
+      images: [ogImageUrl],
     },
   };
 }

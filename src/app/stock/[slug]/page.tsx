@@ -79,7 +79,33 @@ function buildMetadata(slug: string): Metadata {
 
   const title = `${company.nameKo} 분석`;
   const socialTitle = `${title} | 시그널노트`;
-  const description = `${company.nameKo}(${company.tickerCode}) 핵심 숫자: 시가총액 ${formatCompactKRW(company.metrics.marketCap)}, PER ${formatMultiple(company.metrics.per)}, 배당수익률 ${formatPercent(company.metrics.dividendYield, 2)}. 실적 추이와 컨센서스를 확인하세요.`;
+  const description = `${company.nameKo}(${company.tickerCode}) 핵심 숫자: 시가요액 ${formatCompactKRW(company.metrics.marketCap)}, PER ${formatMultiple(company.metrics.per)}, 배당수익률 ${formatPercent(company.metrics.dividendYield, 2)}. 실적 추이와 컨센서스를 확인하세요.`;
+
+  // Build dynamic OG URL
+  const latestClose = company.priceHistory.at(-1)?.close ?? null;
+  const previousClose = company.priceHistory.at(-2)?.close ?? null;
+  const dayChange =
+    latestClose !== null && previousClose !== null && previousClose !== 0
+      ? ((latestClose - previousClose) / previousClose) * 100
+      : null;
+  const ogSign =
+    dayChange === null || dayChange === 0 ? "neutral" : dayChange > 0 ? "up" : "down";
+  const ogPrice = latestClose !== null ? `${formatNumber(latestClose)}원` : "—";
+  const ogChange =
+    dayChange === null || dayChange === 0
+      ? "0%"
+      : (dayChange > 0 ? "+" : "") +
+        new Intl.NumberFormat("ko-KR", { minimumFractionDigits: 1, maximumFractionDigits: 2 }).format(dayChange) +
+        "%";
+
+  const ogParams = new URLSearchParams({
+    title: company.nameKo,
+    v1: ogPrice,
+    n1: ogChange,
+    sign: ogSign,
+    badge: "종목 분석",
+  });
+  const ogImageUrl = `/api/og?${ogParams.toString()}`;
 
   return {
     title,
@@ -96,7 +122,7 @@ function buildMetadata(slug: string): Metadata {
       siteName: SITE_SETTINGS.name,
       images: [
         {
-          url: `/stock/${company.slug}/opengraph-image`,
+          url: ogImageUrl,
           width: STOCK_OG_IMAGE.width,
           height: STOCK_OG_IMAGE.height,
           alt: `${company.nameKo} 종목 OG 이미지`,
@@ -105,9 +131,10 @@ function buildMetadata(slug: string): Metadata {
     },
     twitter: {
       card: "summary_large_image",
+      site: "@nadojdya",
       title: socialTitle,
       description,
-      images: [`/stock/${company.slug}/opengraph-image`],
+      images: [ogImageUrl],
     },
   };
 }
