@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "방산",
   "metrics": {
-    "marketCap": 763654,
-    "per": 27.07,
-    "pbr": 8.46,
+    "marketCap": 739419,
+    "per": 26.21,
+    "pbr": 8.2,
     "roe": null,
-    "dividendYield": 0.47,
-    "foreignOwnership": 44.14,
+    "dividendYield": 0.49,
+    "foreignOwnership": 44.45,
     "weekRange52": {
       "low": 593777,
       "high": 1655000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-01-31",
-      "close": 393882
-    },
     {
       "date": "2025-02-28",
       "close": 584915
@@ -79,7 +75,7 @@
     },
     {
       "date": "2026-03-31",
-      "close": 1481000
+      "close": 1434000
     }
   ],
   "consensus": {
@@ -87,5 +83,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-03-06"
+  "lastUpdated": "2026-03-09"
 }
