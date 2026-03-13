@@ -2,19 +2,19 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5583.25,
-      "changePercent": -0.48
+      "value": 5487.24,
+      "changePercent": -1.72
     },
     {
       "label": "KOSDAQ",
-      "value": 1148.4,
-      "changePercent": 1.02
+      "value": 1152.96,
+      "changePercent": 0.4
     },
     {
       "label": "USD/KRW",
-      "value": 1475.66,
-      "changePercent": 0.19
+      "value": 1484.65,
+      "changePercent": 0.61
     }
   ],
-  "lastUpdated": "2026-03-12"
+  "lastUpdated": "2026-03-13"
 }
