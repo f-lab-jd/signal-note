@@ -609,10 +609,21 @@ def main() -> None:
         if usd_krw:
             indices.append(usd_krw)
 
-        market_data = {
+        # todaySignal은 수동 편집 필드 — 기존 값 보존
+        today_signal: str | None = None
+        if MARKET_FILE.exists():
+            try:
+                old_market = json.loads(MARKET_FILE.read_text(encoding="utf-8"))
+                today_signal = old_market.get("todaySignal")
+            except Exception:
+                pass
+
+        market_data: dict = {
             "indices": indices,
             "lastUpdated": today,
         }
+        if today_signal:
+            market_data["todaySignal"] = today_signal
 
         if dry_run:
             for idx in indices:

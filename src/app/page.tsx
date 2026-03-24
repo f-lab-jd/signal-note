@@ -157,9 +157,16 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <div>
-              <p className="text-xs uppercase tracking-[0.14em] text-neutral">오늘의 프리미엄 시그널</p>
-              <p className="mt-1 text-base font-semibold sm:text-lg">네프콘에서 매일 시그널 받기 →</p>
+            <div className="min-w-0">
+              <p className="text-xs uppercase tracking-[0.14em] text-neutral">오늘의 시그널</p>
+              {marketData.todaySignal ? (
+                <p className="fin-num mt-1 truncate text-sm font-semibold text-foreground sm:text-base">
+                  {marketData.todaySignal}
+                </p>
+              ) : (
+                <p className="mt-1 text-base font-semibold sm:text-lg">네프콘에서 매일 시그널 받기 →</p>
+              )}
+              <p className="mt-1 text-xs text-accent">네프콘에서 더 보기 →</p>
             </div>
             <ArrowUpRight aria-hidden className="size-5 shrink-0 text-accent transition-transform duration-200 group-hover:translate-x-0.5" />
           </a>

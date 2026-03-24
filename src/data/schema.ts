@@ -60,5 +60,6 @@ export interface MarketIndex {
 
 export interface MarketData {
   indices: MarketIndex[];
+  todaySignal?: string;
   lastUpdated: ISODateString;
 }

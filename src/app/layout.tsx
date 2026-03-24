@@ -5,6 +5,7 @@ import Script from "next/script";
 import "./globals.css";
 import "./theme-overrides.css";
 import { getSiteUrl } from "@/lib/site-url";
+import { TelegramPopup } from "@/components/ui/TelegramPopup";
 
 const pretendard = localFont({
   src: "../fonts/PretendardVariable.woff2",
@@ -132,6 +133,7 @@ export default function RootLayout({
           {KAKAO_INIT_SCRIPT}
         </Script>
         {children}
+        <TelegramPopup />
       </body>
     </html>
   );

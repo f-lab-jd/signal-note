@@ -1,7 +1,15 @@
 "use client";
 
-import { Check, Copy, MessageCircle, Share2 } from "lucide-react";
+import { Check, Copy, MessageCircle } from "lucide-react";
 import { useEffect, useState } from "react";
+
+function XIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden fill="currentColor" className={className}>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.74l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 const DEFAULT_SHARE_TEXT = "시그널노트 — 투자 데이터, 한눈에 보다";
 const COPY_FEEDBACK_MS = 2000;
@@ -126,8 +134,8 @@ export function ShareButtons({ shareText = DEFAULT_SHARE_TEXT }: ShareButtonsPro
         ) : null}
 
         <button className={getButtonClassName(false)} onClick={handleXShare} type="button">
-          <Share2 aria-hidden className="size-4" />
-          X 공유
+          <XIcon className="size-3.5" />
+          X(트위터) 공유
         </button>
 
         <button className={getButtonClassName(copied)} onClick={handleCopyLink} type="button">

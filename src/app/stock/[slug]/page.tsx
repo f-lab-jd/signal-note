@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
+import { ArrowUpRight } from "lucide-react";
 import { PriceSparkline } from "@/components/charts/PriceSparkline";
 import { RevenueChart } from "@/components/charts/RevenueChart";
 import { CTABanner } from "@/components/layout/CTABanner";
@@ -83,11 +84,7 @@ function buildMetadata(slug: string): Metadata {
 
   // Build dynamic OG URL
   const latestClose = company.priceHistory.at(-1)?.close ?? null;
-  const previousClose = company.priceHistory.at(-2)?.close ?? null;
-  const dayChange =
-    latestClose !== null && previousClose !== null && previousClose !== 0
-      ? ((latestClose - previousClose) / previousClose) * 100
-      : null;
+  const dayChange = company.dayChangePercent ?? null;
   const ogSign =
     dayChange === null || dayChange === 0 ? "neutral" : dayChange > 0 ? "up" : "down";
   const ogPrice = latestClose !== null ? `${formatNumber(latestClose)}원` : "—";
@@ -163,11 +160,7 @@ export default async function StockPage({ params }: StockPageProps) {
   }
 
   const latestClose = company.priceHistory.at(-1)?.close ?? null;
-  const previousClose = company.priceHistory.at(-2)?.close ?? null;
-  const monthChangePercent =
-    latestClose !== null && previousClose !== null && previousClose !== 0
-      ? ((latestClose - previousClose) / previousClose) * 100
-      : null;
+  const dayChangePercent = company.dayChangePercent ?? null;
   const weekLow = company.metrics.weekRange52.low;
   const weekHigh = company.metrics.weekRange52.high;
   const weekRange = weekHigh - weekLow;
@@ -190,7 +183,7 @@ export default async function StockPage({ params }: StockPageProps) {
                   {company.nameEn} · {company.tickerCode}
                 </p>
               </div>
-              <ChangeBadge value={monthChangePercent} />
+              <ChangeBadge value={dayChangePercent} />
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -281,6 +274,39 @@ export default async function StockPage({ params }: StockPageProps) {
                 <p className="text-xs text-neutral">커버리지 증권사</p>
                 <p className="fin-num text-lg font-semibold">{formatNumber(company.consensus.analystCount)}곳</p>
               </Card>
+            </div>
+          </Card>
+
+          <Card className="relative overflow-hidden border-accent/40 bg-[linear-gradient(125deg,color-mix(in_oklab,var(--color-accent)_18%,transparent)_0%,var(--color-card)_60%,transparent_100%)]">
+            <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 size-36 rounded-full bg-accent/25 blur-3xl" />
+            <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div className="space-y-1">
+                <p className="text-xs uppercase tracking-[0.14em] text-neutral">프리미엄 시그널</p>
+                <p className="text-base font-semibold sm:text-lg">
+                  {company.nameKo} 시그널, 매일 받아보세요
+                </p>
+                <p className="text-sm text-neutral">더 깊은 분석과 실시간 매매 시그널은 네프콘에서</p>
+              </div>
+              <div className="flex shrink-0 flex-col gap-2 sm:flex-row sm:items-center">
+                <a
+                  href={SITE_SETTINGS.ctaHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1 rounded-full border border-black/10 bg-accent px-4 py-2 text-sm font-bold text-black shadow-[0_6px_18px_rgba(0,208,132,0.3)] transition-all hover:-translate-y-0.5 hover:brightness-110"
+                >
+                  ⚡ 네프콘 구독
+                  <ArrowUpRight aria-hidden className="size-3.5" />
+                </a>
+                <a
+                  href={SITE_SETTINGS.telegramHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1 rounded-full border border-border/80 bg-background/45 px-4 py-2 text-sm font-semibold transition-all hover:-translate-y-0.5 hover:border-accent/60"
+                >
+                  📢 텔레그램
+                  <ArrowUpRight aria-hidden className="size-3.5" />
+                </a>
+              </div>
             </div>
           </Card>
 
