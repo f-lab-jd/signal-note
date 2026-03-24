@@ -2,13 +2,13 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5553.92,
-      "changePercent": 2.74
+      "value": 5583.17,
+      "changePercent": 3.28
     },
     {
       "label": "KOSDAQ",
-      "value": 1121.44,
-      "changePercent": 2.24
+      "value": 1130.28,
+      "changePercent": 3.04
     },
     {
       "label": "USD/KRW",
@@ -16,6 +16,6 @@
       "changePercent": -0.88
     }
   ],
-  "todaySignal": "반도체·방산 섹터 단기 모멘텀 확인 중 — 삼성전자·한화에어로 주시",
-  "lastUpdated": "2026-03-24"
+  "lastUpdated": "2026-03-24",
+  "todaySignal": "검은 월요일, 코스피 5% 급락 — 중동발 삼중 악재가 시장을 덮쳤습니다"
 }

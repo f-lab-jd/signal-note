@@ -441,6 +441,34 @@ def fetch_price_history(ticker: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# 네이버 프리미엄콘텐츠 — 오늘의 시그널 (최신 게시글 제목)
+# ---------------------------------------------------------------------------
+SIGNAL_CHANNEL_URL = "https://contents.premium.naver.com/signals/signalnote"
+
+
+def fetch_today_signal() -> str | None:
+    """네이버 프리미엄콘텐츠 채널 페이지에서 최신 게시글 제목을 수집."""
+    from bs4 import BeautifulSoup
+
+    try:
+        resp = requests.get(SIGNAL_CHANNEL_URL, headers=HTTP_HEADERS, timeout=15)
+        if not resp.ok:
+            warn(f"오늘의 시그널 수집 실패: HTTP {resp.status_code}")
+            return None
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        title_el = soup.select_one(".channel_content_item .channel_content_title_text")
+        if not title_el:
+            warn("오늘의 시그널: channel_content_title_text 요소를 찾을 수 없음")
+            return None
+
+        return title_el.get_text(strip=True)
+    except Exception as e:
+        warn(f"오늘의 시그널 수집 실패: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # 시장 지수 — 네이버 API
 # ---------------------------------------------------------------------------
 def fetch_market_indices() -> list[dict]:
@@ -609,14 +637,20 @@ def main() -> None:
         if usd_krw:
             indices.append(usd_krw)
 
-        # todaySignal은 수동 편집 필드 — 기존 값 보존
-        today_signal: str | None = None
-        if MARKET_FILE.exists():
-            try:
-                old_market = json.loads(MARKET_FILE.read_text(encoding="utf-8"))
-                today_signal = old_market.get("todaySignal")
-            except Exception:
-                pass
+        # 오늘의 시그널 — 네이버 프리미엄콘텐츠 최신 게시글 제목 자동 수집
+        log("오늘의 시그널 수집 중...")
+        today_signal = fetch_today_signal()
+        if today_signal:
+            log(f"  오늘의 시그널: {today_signal}")
+        else:
+            # 수집 실패 시 기존 값 보존
+            if MARKET_FILE.exists():
+                try:
+                    old_market = json.loads(MARKET_FILE.read_text(encoding="utf-8"))
+                    today_signal = old_market.get("todaySignal")
+                except Exception:
+                    pass
+            log("  오늘의 시그널 수집 실패 — 기존 값 유지")
 
         market_data: dict = {
             "indices": indices,
