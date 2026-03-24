@@ -25,14 +25,6 @@ const DASHBOARD_OG_IMAGE = {
 const OPEN_GRAPH_LOCALE = "ko_KR";
 const DASHBOARD_TITLE = "대표 25종목 대시보드";
 
-function getPercentChange(currentValue: number | null, baseValue: number | null): number | null {
-  if (currentValue === null || baseValue === null || baseValue === 0) {
-    return null;
-  }
-
-  return ((currentValue - baseValue) / baseValue) * 100;
-}
-
 function getChangeClassName(changePercent: number | null): string {
   if (changePercent === null || changePercent === 0 || Object.is(changePercent, -0)) {
     return "text-neutral";
@@ -180,11 +172,8 @@ export default function Home() {
             <div className="-mx-1 overflow-x-auto pb-2 sm:mx-0 sm:overflow-visible">
               <div className="grid grid-flow-col auto-cols-[minmax(78%,1fr)] gap-4 px-1 sm:grid-flow-row sm:grid-cols-2 sm:px-0 lg:grid-cols-3 xl:grid-cols-5">
                 {companies.map((company) => {
-                  const latestClose = company.priceHistory.at(-1)?.close ?? null;
-                  const previousClose = company.priceHistory.at(-2)?.close ?? null;
-                  const monthBaseClose = company.priceHistory.at(-5)?.close ?? company.priceHistory[0]?.close ?? null;
-                  const dayChange = getPercentChange(latestClose, previousClose);
-                  const monthChange = getPercentChange(latestClose, monthBaseClose);
+                  const dayChange = company.dayChangePercent ?? null;
+                  const monthChange = company.fiveDayChangePercent ?? null;
 
                   return (
                     <Link className="group block h-full" href={`/stock/${company.slug}`} key={company.slug}>

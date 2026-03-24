@@ -47,6 +47,8 @@ export interface CompanyData {
     annual: AnnualFinancial[];
   };
   priceHistory: PricePoint[];
+  dayChangePercent: number | null;
+  fiveDayChangePercent: number | null;
   consensus: CompanyConsensus;
   lastUpdated: ISODateString;
 }
