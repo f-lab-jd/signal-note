@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5583.17,
-      "changePercent": 3.28
+      "value": 5642.21,
+      "changePercent": 1.59
     },
     {
       "label": "KOSDAQ",
-      "value": 1130.28,
-      "changePercent": 3.04
+      "value": 1159.55,
+      "changePercent": 3.4
     },
     {
       "label": "USD/KRW",
-      "value": 1488.08,
-      "changePercent": -0.88
+      "value": 1497.97,
+      "changePercent": 0.66
     }
   ],
-  "lastUpdated": "2026-03-24",
-  "todaySignal": "검은 월요일, 코스피 5% 급락 — 중동발 삼중 악재가 시장을 덮쳤습니다"
+  "lastUpdated": "2026-03-25",
+  "todaySignal": "휴전 기대에 이틀 연속 반등, 근데 진짜 괜찮은 걸까?"
 }
