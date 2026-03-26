@@ -417,17 +417,17 @@ def fetch_naver_stock(ticker: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# pykrx — 월별 종가 히스토리 (12개월)
+# pykrx — 일별 종가 히스토리 (12개월)
 # ---------------------------------------------------------------------------
 def fetch_price_history(ticker: str) -> list[dict]:
-    """pykrx에서 월별 종가 히스토리 수집."""
+    """pykrx에서 일별 종가 히스토리 수집."""
     year_ago = (date.today() - timedelta(days=400)).strftime("%Y%m%d")
     today_str = date.today().strftime("%Y%m%d")
     price_history: list[dict] = []
 
     try:
-        monthly = stock.get_market_ohlcv_by_date(year_ago, today_str, ticker, freq="m")
-        for idx, row in monthly.iterrows():
+        daily = stock.get_market_ohlcv_by_date(year_ago, today_str, ticker, freq="d")
+        for idx, row in daily.iterrows():
             close_val = int(row["종가"])
             if close_val > 0:
                 price_history.append({
