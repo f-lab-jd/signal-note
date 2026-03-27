@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5460.46,
-      "changePercent": -3.22
+      "value": 5438.87,
+      "changePercent": -0.4
     },
     {
       "label": "KOSDAQ",
-      "value": 1136.64,
-      "changePercent": -1.98
+      "value": 1141.51,
+      "changePercent": 0.43
     },
     {
       "label": "USD/KRW",
-      "value": 1501.66,
-      "changePercent": 0.25
+      "value": 1506.83,
+      "changePercent": 0.34
     }
   ],
-  "lastUpdated": "2026-03-26",
-  "todaySignal": "미국장 오프닝 시그널 — 이란 평화안에 선물 급등, 유가 $100 붕괴 (3/25)"
+  "lastUpdated": "2026-03-27",
+  "todaySignal": "미장 오프닝 시그널 — 이란 휴전 기대 꺾이며 선물 급락, 유가 다시 $106 (3/26)"
 }
