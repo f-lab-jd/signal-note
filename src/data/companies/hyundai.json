@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "자동차",
   "metrics": {
-    "marketCap": 961338,
-    "per": 13.29,
-    "pbr": 1.07,
+    "marketCap": 912196,
+    "per": 12.61,
+    "pbr": 1.01,
     "roe": null,
-    "dividendYield": 2.13,
-    "foreignOwnership": 27.84,
+    "dividendYield": 2.25,
+    "foreignOwnership": 27.74,
     "weekRange52": {
       "low": 139300,
       "high": 687000
@@ -94,7 +94,7 @@
     },
     {
       "date": "2026-03-31",
-      "close": 469500
+      "close": 445500
     }
   ],
   "consensus": {
@@ -102,5 +102,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-03-30"
+  "lastUpdated": "2026-03-31"
 }
