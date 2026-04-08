@@ -6,14 +6,14 @@
   "market": "KOSPI",
   "sector": "방산",
   "metrics": {
-    "marketCap": 792529,
-    "per": 53.79,
-    "pbr": 8.16,
+    "marketCap": 765201,
+    "per": 51.94,
+    "pbr": 7.88,
     "roe": null,
-    "dividendYield": 0.46,
-    "foreignOwnership": 45.19,
+    "dividendYield": 0.47,
+    "foreignOwnership": 45.41,
     "weekRange52": {
-      "low": 659752,
+      "low": 662706,
       "high": 1655000
     }
   },
@@ -75,13 +75,13 @@
     },
     {
       "date": "2026-04-30",
-      "close": 1537000
+      "close": 1484000
     }
   ],
   "consensus": {
-    "targetPrice": 1579706,
+    "targetPrice": 1612353,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-04-07"
+  "lastUpdated": "2026-04-08"
 }
