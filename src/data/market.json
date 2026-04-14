@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5808.62,
-      "changePercent": -0.86
+      "value": 5967.75,
+      "changePercent": 2.74
     },
     {
       "label": "KOSDAQ",
-      "value": 1099.84,
-      "changePercent": 0.57
+      "value": 1121.88,
+      "changePercent": 2.0
     },
     {
       "label": "USD/KRW",
-      "value": 1485.53,
-      "changePercent": 0.58
+      "value": 1482.88,
+      "changePercent": -0.18
     }
   ],
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "todaySignal": "미장 오프닝 시그널 — 3/31 이란 종전 협상 신호, 선물 일제 반등"
 }
