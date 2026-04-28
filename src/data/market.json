@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6615.03,
-      "changePercent": 2.15
+      "value": 6641.02,
+      "changePercent": 0.39
     },
     {
       "label": "KOSDAQ",
-      "value": 1226.18,
-      "changePercent": 1.86
+      "value": 1215.58,
+      "changePercent": -0.86
     },
     {
       "label": "USD/KRW",
-      "value": 1476.46,
-      "changePercent": -0.34
+      "value": 1473.34,
+      "changePercent": -0.21
     }
   ],
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "todaySignal": "월요일 미국장 오프닝, 사상최고 다음은? — 4/27 프리뷰"
 }
