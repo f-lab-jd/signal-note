@@ -11,7 +11,7 @@
     "pbr": 1.71,
     "roe": null,
     "dividendYield": 0.92,
-    "foreignOwnership": 25.69,
+    "foreignOwnership": 25.6,
     "weekRange52": {
       "low": 116200,
       "high": 169000
@@ -79,9 +79,9 @@
     }
   ],
   "consensus": {
-    "targetPrice": 173813,
+    "targetPrice": 174500,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-04-30"
+  "lastUpdated": "2026-05-01"
 }
