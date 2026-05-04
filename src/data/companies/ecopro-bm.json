@@ -6,12 +6,12 @@
   "market": "KOSDAQ",
   "sector": "2차전지소재",
   "metrics": {
-    "marketCap": 201531,
-    "per": 511.17,
-    "pbr": 11.65,
+    "marketCap": 210825,
+    "per": 534.74,
+    "pbr": 12.19,
     "roe": null,
     "dividendYield": 0.05,
-    "foreignOwnership": 13.88,
+    "foreignOwnership": 13.93,
     "weekRange52": {
       "low": 81100,
       "high": 260000
@@ -76,6 +76,10 @@
     {
       "date": "2026-04-30",
       "close": 206000
+    },
+    {
+      "date": "2026-05-31",
+      "close": 215500
     }
   ],
   "consensus": {
@@ -83,5 +87,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-05-01"
+  "lastUpdated": "2026-05-04"
 }
