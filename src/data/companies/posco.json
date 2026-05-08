@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "철강",
   "metrics": {
-    "marketCap": 423942,
-    "per": 66.17,
-    "pbr": 0.73,
+    "marketCap": 416018,
+    "per": 64.94,
+    "pbr": 0.71,
     "roe": null,
-    "dividendYield": 1.87,
-    "foreignOwnership": 31.1,
+    "dividendYield": 1.91,
+    "foreignOwnership": 31.07,
     "weekRange52": {
       "low": 230000,
       "high": 542000
@@ -75,13 +75,13 @@
     },
     {
       "date": "2026-05-31",
-      "close": 535000
+      "close": 525000
     }
   ],
   "consensus": {
-    "targetPrice": 575438,
+    "targetPrice": 579235,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-05-07"
+  "lastUpdated": "2026-05-08"
 }
