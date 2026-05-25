@@ -8,7 +8,7 @@
   "metrics": {
     "marketCap": 586132,
     "per": 16.87,
-    "pbr": 1.17,
+    "pbr": 1.14,
     "roe": null,
     "dividendYield": 1.01,
     "foreignOwnership": 40.05,
@@ -79,9 +79,9 @@
     }
   ],
   "consensus": {
-    "targetPrice": 620800,
+    "targetPrice": 632400,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-05-22"
+  "lastUpdated": "2026-05-25"
 }

@@ -7,8 +7,8 @@
   "sector": "반도체",
   "metrics": {
     "marketCap": 305476,
-    "per": 143.53,
-    "pbr": 44.04,
+    "per": 171.67,
+    "pbr": 47.81,
     "roe": null,
     "dividendYield": 0.25,
     "foreignOwnership": 6.48,
@@ -79,9 +79,9 @@
     }
   ],
   "consensus": {
-    "targetPrice": 230000,
+    "targetPrice": 380000,
     "rating": "매수",
     "analystCount": 0
   },
-  "lastUpdated": "2026-05-22"
+  "lastUpdated": "2026-05-25"
 }
