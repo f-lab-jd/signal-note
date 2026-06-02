@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8788.38,
-      "changePercent": 3.68
+      "value": 8801.49,
+      "changePercent": 0.15
     },
     {
       "label": "KOSDAQ",
-      "value": 1050.03,
-      "changePercent": -2.3
+      "value": 1026.03,
+      "changePercent": -2.29
     },
     {
       "label": "USD/KRW",
-      "value": 1506.83,
-      "changePercent": 0.56
+      "value": 1511.05,
+      "changePercent": 0.28
     }
   ],
-  "lastUpdated": "2026-06-01",
-  "todaySignal": "주간 시그널 리뷰 — 코스피 8,476 역대 최고, 한 주 만에 +8% 폭주한 진짜 이유 (5월 4주차)"
+  "lastUpdated": "2026-06-02",
+  "todaySignal": "외국인 6조 매도에도 코스피가 8,801선을 지킨 이유 — 오늘 신호 4가지"
 }

@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "보험",
   "metrics": {
-    "marketCap": 269671,
-    "per": 14.84,
-    "pbr": 1.21,
+    "marketCap": 286190,
+    "per": 15.75,
+    "pbr": 1.28,
     "roe": null,
-    "dividendYield": 3.23,
-    "foreignOwnership": 58.09,
+    "dividendYield": 3.04,
+    "foreignOwnership": 58.13,
     "weekRange52": {
       "low": 358000,
       "high": 681000
@@ -79,7 +79,7 @@
     },
     {
       "date": "2026-06-30",
-      "close": 604000
+      "close": 641000
     }
   ],
   "consensus": {
@@ -87,5 +87,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-06-01"
+  "lastUpdated": "2026-06-02"
 }
