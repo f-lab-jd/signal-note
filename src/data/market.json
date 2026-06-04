@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8801.49,
-      "changePercent": 0.15
+      "value": 8639.41,
+      "changePercent": -1.84
     },
     {
       "label": "KOSDAQ",
-      "value": 1026.03,
-      "changePercent": -2.29
+      "value": 1049.73,
+      "changePercent": 2.31
     },
     {
       "label": "USD/KRW",
-      "value": 1516.87,
-      "changePercent": 0.39
+      "value": 1529.37,
+      "changePercent": 0.82
     }
   ],
-  "lastUpdated": "2026-06-03",
-  "todaySignal": "코스피 8,801은 버텼는데 코스닥은 -2.29% — 최신 마감치가 말하는 신호 4가지"
+  "lastUpdated": "2026-06-04",
+  "todaySignal": "S&P500 -0.74%, 엔비디아 -3.6% — 오늘 한국장이 봐야 할 신호 4가지"
 }
