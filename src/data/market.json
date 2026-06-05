@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8639.41,
-      "changePercent": -1.84
+      "value": 8160.59,
+      "changePercent": -5.54
     },
     {
       "label": "KOSDAQ",
-      "value": 1049.73,
-      "changePercent": 2.31
+      "value": 1002.44,
+      "changePercent": -4.5
     },
     {
       "label": "USD/KRW",
-      "value": 1529.37,
-      "changePercent": 0.82
+      "value": 1532.42,
+      "changePercent": 0.2
     }
   ],
-  "lastUpdated": "2026-06-04",
-  "todaySignal": "S&P500 -0.74%, 엔비디아 -3.6% — 오늘 한국장이 봐야 할 신호 4가지"
+  "lastUpdated": "2026-06-05",
+  "todaySignal": "다우 +875p인데 나스닥은 약했다 — 오늘 한국장이 봐야 할 신호 4가지"
 }
