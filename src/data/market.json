@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7484.41,
-      "changePercent": -8.29
+      "value": 8096.93,
+      "changePercent": 8.18
     },
     {
       "label": "KOSDAQ",
-      "value": 911.39,
-      "changePercent": -9.08
+      "value": 967.81,
+      "changePercent": 6.19
     },
     {
       "label": "USD/KRW",
-      "value": 1551.57,
-      "changePercent": 1.25
+      "value": 1529.02,
+      "changePercent": -1.45
     }
   ],
-  "lastUpdated": "2026-06-08",
-  "todaySignal": "코스피 -5.54%, 외국인 3.5조 매도 — 6/5 급락장이 남긴 신호 4가지"
+  "lastUpdated": "2026-06-09",
+  "todaySignal": "오늘 한국장 프리뷰: 나스닥 +0.86%인데 다우는 약했다 — 장전 신호 4가지"
 }
