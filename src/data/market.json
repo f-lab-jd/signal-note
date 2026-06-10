@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8096.93,
-      "changePercent": 8.18
+      "value": 7730.82,
+      "changePercent": -4.52
     },
     {
       "label": "KOSDAQ",
-      "value": 967.81,
-      "changePercent": 6.19
+      "value": 951.63,
+      "changePercent": -1.67
     },
     {
       "label": "USD/KRW",
-      "value": 1529.02,
-      "changePercent": -1.45
+      "value": 1523.76,
+      "changePercent": -0.34
     }
   ],
-  "lastUpdated": "2026-06-09",
-  "todaySignal": "오늘 한국장 프리뷰: 나스닥 +0.86%인데 다우는 약했다 — 장전 신호 4가지"
+  "lastUpdated": "2026-06-10",
+  "todaySignal": "SK하이닉스 PER 20배인데 7배? — 숫자로 뜯어본 HBM 대장주의 두 얼굴"
 }
