@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7730.82,
-      "changePercent": -4.52
+      "value": 7763.95,
+      "changePercent": 0.43
     },
     {
       "label": "KOSDAQ",
-      "value": 951.63,
-      "changePercent": -1.67
+      "value": 996.93,
+      "changePercent": 4.76
     },
     {
       "label": "USD/KRW",
-      "value": 1523.76,
-      "changePercent": -0.34
+      "value": 1522.51,
+      "changePercent": -0.08
     }
   ],
-  "lastUpdated": "2026-06-10",
-  "todaySignal": "SK하이닉스 PER 20배인데 7배? — 숫자로 뜯어본 HBM 대장주의 두 얼굴"
+  "lastUpdated": "2026-06-11",
+  "todaySignal": "코스피 +0.43%인데 코스닥 +4.76% — 수급은 왜 엇갈렸나 ⚡"
 }
