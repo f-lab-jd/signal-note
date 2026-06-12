@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7763.95,
-      "changePercent": 0.43
+      "value": 8123.62,
+      "changePercent": 4.63
     },
     {
       "label": "KOSDAQ",
-      "value": 996.93,
-      "changePercent": 4.76
+      "value": 1029.05,
+      "changePercent": 3.22
     },
     {
       "label": "USD/KRW",
-      "value": 1522.51,
-      "changePercent": -0.08
+      "value": 1525.17,
+      "changePercent": 0.17
     }
   ],
-  "lastUpdated": "2026-06-11",
-  "todaySignal": "코스피 +0.43%인데 코스닥 +4.76% — 수급은 왜 엇갈렸나 ⚡"
+  "lastUpdated": "2026-06-12",
+  "todaySignal": "코스피 8,123선 급등, 외국인·기관 4.5조 동반 매수 — 오늘 마감 신호 4가지 ⚡"
 }
