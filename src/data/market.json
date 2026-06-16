@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8545.98,
-      "changePercent": 5.2
+      "value": 8726.6,
+      "changePercent": 2.11
     },
     {
       "label": "KOSDAQ",
-      "value": 1034.03,
-      "changePercent": 0.48
+      "value": 1018.68,
+      "changePercent": -1.48
     },
     {
       "label": "USD/KRW",
-      "value": 1516.97,
-      "changePercent": -0.54
+      "value": 1513.37,
+      "changePercent": -0.24
     }
   ],
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-16",
   "todaySignal": "S&P500 +0.50%, VIX -9.05% — 공포는 빠졌지만 주도주는 갈린 밤"
 }
