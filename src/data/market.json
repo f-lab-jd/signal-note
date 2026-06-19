@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 9063.84,
-      "changePercent": 2.25
+      "value": 9052.42,
+      "changePercent": -0.13
     },
     {
       "label": "KOSDAQ",
-      "value": 1000.93,
-      "changePercent": -3.01
+      "value": 966.59,
+      "changePercent": -3.43
     },
     {
       "label": "USD/KRW",
-      "value": 1518.88,
-      "changePercent": 0.67
+      "value": 1536.24,
+      "changePercent": 1.14
     }
   ],
-  "lastUpdated": "2026-06-18",
-  "todaySignal": "S&P500 +0.50%, VIX -9.05% — 공포는 빠졌지만 주도주는 갈린 밤"
+  "lastUpdated": "2026-06-19",
+  "todaySignal": "나스닥 +1.91%·VIX 16.40 받아든 코스피 9,063 — 오늘 갭상승, 어디까지 믿어야 할까?"
 }
