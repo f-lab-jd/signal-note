@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 9114.55,
-      "changePercent": 0.69
+      "value": 8203.84,
+      "changePercent": -9.99
     },
     {
       "label": "KOSDAQ",
-      "value": 968.4,
-      "changePercent": 0.19
+      "value": 891.52,
+      "changePercent": -7.94
     },
     {
       "label": "USD/KRW",
-      "value": 1531.0,
-      "changePercent": -0.34
+      "value": 1537.59,
+      "changePercent": 0.43
     }
   ],
-  "lastUpdated": "2026-06-22",
-  "todaySignal": "4일 만에 다시 열리는 미국장 — 오늘 밤 미국장 프리뷰, 봐야 할 신호 4가지 ⚡"
+  "lastUpdated": "2026-06-23",
+  "todaySignal": "나스닥은 빠졌는데 반도체지수만 +2% — 간밤 미국장이 오늘 하이닉스에 보낸 신호 4가지 ⚡"
 }

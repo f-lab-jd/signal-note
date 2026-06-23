@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "조선",
   "metrics": {
-    "marketCap": 281323,
-    "per": 11.18,
-    "pbr": 2.07,
+    "marketCap": 257968,
+    "per": 10.25,
+    "pbr": 1.9,
     "roe": null,
-    "dividendYield": 3.09,
-    "foreignOwnership": 33.68,
+    "dividendYield": 3.37,
+    "foreignOwnership": 33.71,
     "weekRange52": {
       "low": 301000,
       "high": 494500
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-06-30",
-      "close": 397500
+      "close": 364500
     }
   ],
   "consensus": {
@@ -83,5 +83,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-06-22"
+  "lastUpdated": "2026-06-23"
 }
