@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8203.84,
-      "changePercent": -9.99
+      "value": 8471.02,
+      "changePercent": 3.26
     },
     {
       "label": "KOSDAQ",
-      "value": 891.52,
-      "changePercent": -7.94
+      "value": 909.31,
+      "changePercent": 2.0
     },
     {
       "label": "USD/KRW",
-      "value": 1537.59,
-      "changePercent": 0.43
+      "value": 1534.53,
+      "changePercent": -0.2
     }
   ],
-  "lastUpdated": "2026-06-23",
-  "todaySignal": "나스닥은 빠졌는데 반도체지수만 +2% — 간밤 미국장이 오늘 하이닉스에 보낸 신호 4가지 ⚡"
+  "lastUpdated": "2026-06-24",
+  "todaySignal": "삼성전자 +9.8% 폭등인데 하이닉스는 +1.0%, 반도체 투톱이 갈라진 날 — 신호 4가지"
 }
