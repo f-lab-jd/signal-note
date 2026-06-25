@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8471.02,
-      "changePercent": 3.26
+      "value": 8930.3,
+      "changePercent": 5.42
     },
     {
       "label": "KOSDAQ",
-      "value": 909.31,
-      "changePercent": 2.0
+      "value": 887.81,
+      "changePercent": -2.36
     },
     {
       "label": "USD/KRW",
-      "value": 1534.53,
-      "changePercent": -0.2
+      "value": 1543.26,
+      "changePercent": 0.57
     }
   ],
-  "lastUpdated": "2026-06-24",
-  "todaySignal": "삼성전자 +9.8% 폭등인데 하이닉스는 +1.0%, 반도체 투톱이 갈라진 날 — 신호 4가지"
+  "lastUpdated": "2026-06-25",
+  "todaySignal": "어제 삼전만 +9.8% 튀었는데 오늘은 하이닉스가 따라잡나 — 한국장 개장 전 신호 4가지 ⚡"
 }
