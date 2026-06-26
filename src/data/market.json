@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8930.3,
-      "changePercent": 5.42
+      "value": 8411.21,
+      "changePercent": -5.81
     },
     {
       "label": "KOSDAQ",
-      "value": 887.81,
-      "changePercent": -2.36
+      "value": 851.37,
+      "changePercent": -4.1
     },
     {
       "label": "USD/KRW",
-      "value": 1543.26,
-      "changePercent": 0.57
+      "value": 1543.58,
+      "changePercent": 0.02
     }
   ],
-  "lastUpdated": "2026-06-25",
-  "todaySignal": "어제 삼전만 +9.8% 튀었는데 오늘은 하이닉스가 따라잡나 — 한국장 개장 전 신호 4가지 ⚡"
+  "lastUpdated": "2026-06-26",
+  "todaySignal": "어제 투톱 다 기관이 받고 외국인은 던졌다 — 마이크론 +15.7% 뒤 오늘 한국장 신호 4가지 ⚡"
 }
