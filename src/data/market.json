@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8394.65,
-      "changePercent": -0.2
+      "value": 8476.48,
+      "changePercent": 0.97
     },
     {
       "label": "KOSDAQ",
-      "value": 920.57,
-      "changePercent": 8.13
+      "value": 916.18,
+      "changePercent": -0.48
     },
     {
       "label": "USD/KRW",
-      "value": 1536.79,
-      "changePercent": -0.44
+      "value": 1541.85,
+      "changePercent": 0.33
     }
   ],
-  "lastUpdated": "2026-06-29",
-  "todaySignal": "삼전 -4.9% vs 하이닉스 -1.7%, 시총 격차 15조까지 좁혀진 날 — 외국인은 어디로 갔나, 신호 4가지 ⚡"
+  "lastUpdated": "2026-06-30",
+  "todaySignal": "어젯밤 마이크론 -6.7%, 웨스턴디지털 -13.2% — 메모리 3사 같이 맞은 밤, 오늘 밤 HBM 되살아날까 미국장 프리뷰 ⚡"
 }
