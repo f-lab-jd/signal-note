@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8476.48,
-      "changePercent": 0.97
+      "value": 8303.41,
+      "changePercent": -2.04
     },
     {
       "label": "KOSDAQ",
-      "value": 916.18,
-      "changePercent": -0.48
+      "value": 929.35,
+      "changePercent": 1.44
     },
     {
       "label": "USD/KRW",
-      "value": 1541.85,
-      "changePercent": 0.33
+      "value": 1548.63,
+      "changePercent": 0.44
     }
   ],
-  "lastUpdated": "2026-06-30",
-  "todaySignal": "어젯밤 마이크론 -6.7%, 웨스턴디지털 -13.2% — 메모리 3사 같이 맞은 밤, 오늘 밤 HBM 되살아날까 미국장 프리뷰 ⚡"
+  "lastUpdated": "2026-07-01",
+  "todaySignal": "코스피 -2%인데 오른 종목이 700개 — 삼전 -5.8% 혼자 지수를 끌어내린 날, 마감 수급 신호 4가지 ⚡"
 }
