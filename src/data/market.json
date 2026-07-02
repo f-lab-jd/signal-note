@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8303.41,
-      "changePercent": -2.04
+      "value": 7648.09,
+      "changePercent": -7.89
     },
     {
       "label": "KOSDAQ",
-      "value": 929.35,
-      "changePercent": 1.44
+      "value": 866.72,
+      "changePercent": -6.74
     },
     {
       "label": "USD/KRW",
-      "value": 1548.63,
-      "changePercent": 0.44
+      "value": 1553.24,
+      "changePercent": 0.3
     }
   ],
-  "lastUpdated": "2026-07-01",
-  "todaySignal": "코스피 -2%인데 오른 종목이 700개 — 삼전 -5.8% 혼자 지수를 끌어내린 날, 마감 수급 신호 4가지 ⚡"
+  "lastUpdated": "2026-07-02",
+  "todaySignal": "마이크론은 -10.6%인데 엔비디아는 -1.3% — 같은 반도체가 8배 갈라진 밤, 오늘 하이닉스·삼전 반등 확인 신호 4가지 ⚡"
 }
