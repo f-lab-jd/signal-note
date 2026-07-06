@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 8088.34,
-      "changePercent": 5.76
+      "value": 8051.33,
+      "changePercent": -0.46
     },
     {
       "label": "KOSDAQ",
-      "value": 868.41,
-      "changePercent": 0.19
+      "value": 847.07,
+      "changePercent": -2.46
     },
     {
       "label": "USD/KRW",
-      "value": 1543.91,
-      "changePercent": -0.6
+      "value": 1530.98,
+      "changePercent": -0.84
     }
   ],
-  "lastUpdated": "2026-07-03",
-  "todaySignal": "코스피 7,378에서 8,088로 — 하루 안에 V자, 오늘 이 반등을 만든 건 하이닉스였습니다"
+  "lastUpdated": "2026-07-06",
+  "todaySignal": "SOX -7.9% 충격 다음 날 — 하이닉스·삼전 오늘 출발선 신호 4가지안녕하세요 시그널러 여러분, 시그널노트입니다 ⚡"
 }
