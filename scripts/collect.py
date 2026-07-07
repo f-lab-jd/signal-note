@@ -292,7 +292,7 @@ def parse_ratio(text: str) -> float | None:
     if not text:
         return None
     text = text.strip()
-    m = re.match(r"([\d,.]+)", text)
+    m = re.match(r"(-?[\d,.]+)", text)
     if m:
         try:
             return round(float(m.group(1).replace(",", "")), 4)
@@ -328,6 +328,7 @@ def fetch_naver_stock(ticker: str) -> dict:
     """네이버 증권 API에서 종목 데이터 수집."""
     result: dict = {
         "close": None,
+        "dayChangePercent": None,
         "marketCap": None,
         "per": None,
         "pbr": None,
@@ -337,13 +338,16 @@ def fetch_naver_stock(ticker: str) -> dict:
         "consensus": None,
     }
 
-    # --- basic API: 종가, 등락률 ---
+    # --- basic API: 종가, 당일 등락률 ---
     try:
         url = f"https://m.stock.naver.com/api/stock/{ticker}/basic"
         resp = requests.get(url, headers=HTTP_HEADERS, timeout=10)
         if resp.ok:
             data = resp.json()
             result["close"] = parse_comma_int(data.get("closePrice", ""))
+            result["dayChangePercent"] = parse_ratio(data.get("fluctuationsRatio", ""))
+        else:
+            warn(f"네이버 basic API 실패 ({ticker}): HTTP {resp.status_code}")
     except Exception as e:
         warn(f"네이버 basic API 실패 ({ticker}): {e}")
 
@@ -570,6 +574,13 @@ def merge_company_data(
     old_metrics = existing.get("metrics", {})
     old_consensus = existing.get("consensus", {})
 
+    five_day_change = None
+    if len(price_history) >= 6:
+        latest = price_history[-1]["close"]
+        base = price_history[-6]["close"]
+        if base:
+            five_day_change = round(((latest - base) / base) * 100, 2)
+
     return {
         "slug": slug,
         "tickerCode": meta["ticker"],
@@ -589,6 +600,8 @@ def merge_company_data(
         # 연간 실적은 일별 수집 대상 아님 — 기존 데이터 보존
         "financials": existing.get("financials", {"annual": []}),
         "priceHistory": price_history or existing.get("priceHistory", []),
+        "dayChangePercent": naver_data["dayChangePercent"] if naver_data["dayChangePercent"] is not None else existing.get("dayChangePercent"),
+        "fiveDayChangePercent": five_day_change if five_day_change is not None else existing.get("fiveDayChangePercent"),
         "consensus": naver_data.get("consensus") or old_consensus,
         "lastUpdated": today,
     }
