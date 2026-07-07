@@ -1094,6 +1094,8 @@
       "close": 682000
     }
   ],
+  "dayChangePercent": 1.19,
+  "fiveDayChangePercent": 10.36,
   "consensus": {
     "targetPrice": 687471,
     "rating": "매수",
