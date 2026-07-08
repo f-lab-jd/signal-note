@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7656.31,
-      "changePercent": -4.91
+      "value": 7246.79,
+      "changePercent": -5.35
     },
     {
       "label": "KOSDAQ",
-      "value": 831.23,
-      "changePercent": -1.87
+      "value": 785.0,
+      "changePercent": -5.56
     },
     {
       "label": "USD/KRW",
-      "value": 1530.8,
-      "changePercent": 0.0
+      "value": 1516.9,
+      "changePercent": -0.91
     }
   ],
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "todaySignal": "SOX -7.9% 충격 다음 날 — 하이닉스·삼전 오늘 출발선 신호 4가지안녕하세요 시그널러 여러분, 시그널노트입니다 ⚡"
 }
