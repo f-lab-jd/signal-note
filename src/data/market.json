@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7475.94,
-      "changePercent": 2.52
+      "value": 6806.93,
+      "changePercent": -8.95
     },
     {
       "label": "KOSDAQ",
-      "value": 837.43,
-      "changePercent": 5.47
+      "value": 799.36,
+      "changePercent": -4.55
     },
     {
       "label": "USD/KRW",
-      "value": 1501.59,
-      "changePercent": -0.09
+      "value": 1501.33,
+      "changePercent": -0.02
     }
   ],
-  "lastUpdated": "2026-07-12",
-  "todaySignal": "자기자본 100원으로 삼성은 11원, 하이닉스는 44원 벌었습니다 — 초보자를 위한 ROE 첫 수업"
+  "lastUpdated": "2026-07-13",
+  "todaySignal": "엔비디아 +4% 뛰는 동안 마이크론은 -1.2% 내렸습니다 — 오늘 하이닉스·삼전 출발선 신호 4가지"
 }
