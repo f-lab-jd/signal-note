@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6806.93,
-      "changePercent": -8.95
+      "value": 6856.83,
+      "changePercent": 0.73
     },
     {
       "label": "KOSDAQ",
-      "value": 799.36,
-      "changePercent": -4.55
+      "value": 783.98,
+      "changePercent": -1.92
     },
     {
       "label": "USD/KRW",
-      "value": 1501.33,
-      "changePercent": -0.02
+      "value": 1497.0,
+      "changePercent": -0.29
     }
   ],
-  "lastUpdated": "2026-07-13",
-  "todaySignal": "엔비디아 +4% 뛰는 동안 마이크론은 -1.2% 내렸습니다 — 오늘 하이닉스·삼전 출발선 신호 4가지"
+  "lastUpdated": "2026-07-14",
+  "todaySignal": "코스피는 +0.7%인데 662개가 내렸다 — 하이닉스·삼전이 가린 오늘의 진짜 시장"
 }
