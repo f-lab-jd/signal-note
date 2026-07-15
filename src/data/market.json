@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6856.83,
-      "changePercent": 0.73
+      "value": 7284.41,
+      "changePercent": 6.24
     },
     {
       "label": "KOSDAQ",
-      "value": 783.98,
-      "changePercent": -1.92
+      "value": 829.43,
+      "changePercent": 5.8
     },
     {
       "label": "USD/KRW",
-      "value": 1497.0,
-      "changePercent": -0.29
+      "value": 1490.48,
+      "changePercent": -0.44
     }
   ],
-  "lastUpdated": "2026-07-14",
-  "todaySignal": "코스피는 +0.7%인데 662개가 내렸다 — 하이닉스·삼전이 가린 오늘의 진짜 시장"
+  "lastUpdated": "2026-07-15",
+  "todaySignal": "코스피 +6.2% 폭등한 날, 하이닉스에만 20.9조가 몰렸습니다 — 삼전과 갈린 수급 4"
 }
