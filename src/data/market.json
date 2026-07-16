@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7284.41,
-      "changePercent": 6.24
+      "value": 6820.6,
+      "changePercent": -6.37
     },
     {
       "label": "KOSDAQ",
-      "value": 829.43,
-      "changePercent": 5.8
+      "value": 791.84,
+      "changePercent": -4.53
     },
     {
       "label": "USD/KRW",
-      "value": 1490.48,
-      "changePercent": -0.44
+      "value": 1488.31,
+      "changePercent": -0.15
     }
   ],
-  "lastUpdated": "2026-07-15",
-  "todaySignal": "코스피 +6.2% 폭등한 날, 하이닉스에만 20.9조가 몰렸습니다 — 삼전과 갈린 수급 4"
+  "lastUpdated": "2026-07-16",
+  "todaySignal": "코스피 -6.4% 폭락, 진앙은 반도체였다 — 하이닉스·삼전 하루 282조 증발의 수급 4가지"
 }
