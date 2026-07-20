@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6820.6,
-      "changePercent": -6.37
+      "value": 6516.27,
+      "changePercent": -4.46
     },
     {
       "label": "KOSDAQ",
-      "value": 791.84,
-      "changePercent": -4.53
+      "value": 749.64,
+      "changePercent": -5.33
     },
     {
       "label": "USD/KRW",
-      "value": 1486.12,
-      "changePercent": -0.05
+      "value": 1486.95,
+      "changePercent": 0.06
     }
   ],
-  "lastUpdated": "2026-07-19",
-  "todaySignal": "주가 184만원 하이닉스보다, 25만원 삼성전자가 더 큰 회사입니다 — 초보자를 위한 시가총액 첫 수업"
+  "lastUpdated": "2026-07-20",
+  "todaySignal": "코스피 -4.5% 폭락인데 외국인은 5,153억 샀다 — 기관 투매 vs 외인 저가매수, 신호 4가지"
 }
