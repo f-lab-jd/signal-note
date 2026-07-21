@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6516.27,
-      "changePercent": -4.46
+      "value": 6747.95,
+      "changePercent": 3.56
     },
     {
       "label": "KOSDAQ",
-      "value": 749.64,
-      "changePercent": -5.33
+      "value": 753.34,
+      "changePercent": 0.49
     },
     {
       "label": "USD/KRW",
-      "value": 1486.95,
-      "changePercent": 0.06
+      "value": 1478.63,
+      "changePercent": -0.56
     }
   ],
-  "lastUpdated": "2026-07-20",
-  "todaySignal": "코스피 -4.5% 폭락인데 외국인은 5,153억 샀다 — 기관 투매 vs 외인 저가매수, 신호 4가지"
+  "lastUpdated": "2026-07-21",
+  "todaySignal": "코스피 하루 만에 +3.6% 반등한 날, 반도체 투톱이 뒤집혔다. 삼전 +6.2% vs 하이닉스 +4.1%, 수급 신호 4가지"
 }
