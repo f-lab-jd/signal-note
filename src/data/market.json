@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6747.95,
-      "changePercent": 3.56
+      "value": 6797.7,
+      "changePercent": 0.74
     },
     {
       "label": "KOSDAQ",
-      "value": 753.34,
-      "changePercent": 0.49
+      "value": 751.09,
+      "changePercent": -0.3
     },
     {
       "label": "USD/KRW",
-      "value": 1478.63,
-      "changePercent": -0.56
+      "value": 1480.02,
+      "changePercent": 0.09
     }
   ],
-  "lastUpdated": "2026-07-21",
-  "todaySignal": "코스피 하루 만에 +3.6% 반등한 날, 반도체 투톱이 뒤집혔다. 삼전 +6.2% vs 하이닉스 +4.1%, 수급 신호 4가지"
+  "lastUpdated": "2026-07-22",
+  "todaySignal": "하이닉스 200만 찍고 183만으로 마감. 삼전은 왜 버텼나. 수급 신호 4가지"
 }
