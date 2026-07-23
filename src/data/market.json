@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6797.7,
-      "changePercent": 0.74
+      "value": 7096.89,
+      "changePercent": 4.4
     },
     {
       "label": "KOSDAQ",
-      "value": 751.09,
-      "changePercent": -0.3
+      "value": 790.28,
+      "changePercent": 5.22
     },
     {
       "label": "USD/KRW",
-      "value": 1480.02,
-      "changePercent": 0.09
+      "value": 1478.49,
+      "changePercent": -0.1
     }
   ],
-  "lastUpdated": "2026-07-22",
-  "todaySignal": "하이닉스 200만 찍고 183만으로 마감. 삼전은 왜 버텼나. 수급 신호 4가지"
+  "lastUpdated": "2026-07-23",
+  "todaySignal": "코스피 7,000 첫 돌파. 외국인 2조 쏟아붓는데 하이닉스·삼전 수급은 갈렸다"
 }
