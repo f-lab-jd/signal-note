@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7096.89,
-      "changePercent": 4.4
+      "value": 6690.62,
+      "changePercent": -5.72
     },
     {
       "label": "KOSDAQ",
-      "value": 790.28,
-      "changePercent": 5.22
+      "value": 748.22,
+      "changePercent": -5.32
     },
     {
       "label": "USD/KRW",
-      "value": 1478.49,
-      "changePercent": -0.1
+      "value": 1474.52,
+      "changePercent": -0.27
     }
   ],
-  "lastUpdated": "2026-07-23",
-  "todaySignal": "코스피 7,000 첫 돌파. 외국인 2조 쏟아붓는데 하이닉스·삼전 수급은 갈렸다"
+  "lastUpdated": "2026-07-24",
+  "todaySignal": "코스피 하루 만에 -5.7% 쇼크. 반도체 투톱서만 234조 증발했다"
 }
