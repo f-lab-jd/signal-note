@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6690.62,
-      "changePercent": -5.72
+      "value": 6755.75,
+      "changePercent": 0.97
     },
     {
       "label": "KOSDAQ",
-      "value": 748.22,
-      "changePercent": -5.32
+      "value": 764.86,
+      "changePercent": 2.22
     },
     {
       "label": "USD/KRW",
-      "value": 1462.79,
-      "changePercent": 0.01
+      "value": 1459.6,
+      "changePercent": -0.22
     }
   ],
-  "lastUpdated": "2026-07-26",
-  "todaySignal": "삼성전자 EPS가 12,372원, 하이닉스가 103,521원. 근데 더 비싼 주식은 어느 쪽일까요"
+  "lastUpdated": "2026-07-27",
+  "todaySignal": "외국인이 코스피서 2.88조 팔았는데 지수는 외국인이 코스피서 2.88조 팔았는데 지수는 +1.0%. 반도체 투톱은 왜 둘+1.0%. 반도체 투톱은 왜 둘 다 올랐나. 신호 4가지"
 }
