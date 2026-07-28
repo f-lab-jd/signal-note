@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "2차전지",
   "metrics": {
-    "marketCap": 347324,
+    "marketCap": 307837,
     "per": null,
-    "pbr": 1.5,
+    "pbr": 1.33,
     "roe": null,
     "dividendYield": null,
-    "foreignOwnership": 26.36,
+    "foreignOwnership": 26.34,
     "weekRange52": {
       "low": 186500,
       "high": 820000
@@ -1092,14 +1092,18 @@
     {
       "date": "2026-07-27",
       "close": 431000
+    },
+    {
+      "date": "2026-07-28",
+      "close": 382000
     }
   ],
-  "dayChangePercent": 0.7,
-  "fiveDayChangePercent": 7.48,
+  "dayChangePercent": -11.37,
+  "fiveDayChangePercent": -8.28,
   "consensus": {
     "targetPrice": 797783,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-07-27"
+  "lastUpdated": "2026-07-28"
 }

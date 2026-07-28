@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6755.75,
-      "changePercent": 0.97
+      "value": 6023.66,
+      "changePercent": -10.84
     },
     {
       "label": "KOSDAQ",
-      "value": 764.86,
-      "changePercent": 2.22
+      "value": 705.85,
+      "changePercent": -7.72
     },
     {
       "label": "USD/KRW",
-      "value": 1459.6,
-      "changePercent": -0.22
+      "value": 1467.33,
+      "changePercent": 0.53
     }
   ],
-  "lastUpdated": "2026-07-27",
-  "todaySignal": "외국인이 코스피서 2.88조 팔았는데 지수는 외국인이 코스피서 2.88조 팔았는데 지수는 +1.0%. 반도체 투톱은 왜 둘+1.0%. 반도체 투톱은 왜 둘 다 올랐나. 신호 4가지"
+  "lastUpdated": "2026-07-28",
+  "todaySignal": "코스피 -10.8% 대폭락. 근데 하이닉스는 장초 하한가 목전에서 살아 돌아왔다. 신호 4가지"
 }
