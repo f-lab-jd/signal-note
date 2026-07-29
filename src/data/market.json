@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6023.66,
-      "changePercent": -10.84
+      "value": 5663.24,
+      "changePercent": -5.98
     },
     {
       "label": "KOSDAQ",
-      "value": 705.85,
-      "changePercent": -7.72
+      "value": 662.68,
+      "changePercent": -6.12
     },
     {
       "label": "USD/KRW",
-      "value": 1467.33,
-      "changePercent": 0.53
+      "value": 1457.52,
+      "changePercent": -0.67
     }
   ],
-  "lastUpdated": "2026-07-28",
-  "todaySignal": "코스피 -10.8% 대폭락. 근데 하이닉스는 장초 하한가 목전에서 살아 돌아왔다. 신호 4가지"
+  "lastUpdated": "2026-07-29",
+  "todaySignal": "같은 반도체인데 하이닉스는 삼성전자보다 두 배 더 빠졌습니다. 왜일까요"
 }
