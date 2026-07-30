@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5663.24,
-      "changePercent": -5.98
+      "value": 5593.56,
+      "changePercent": -1.23
     },
     {
       "label": "KOSDAQ",
-      "value": 662.68,
-      "changePercent": -6.12
+      "value": 644.78,
+      "changePercent": -2.7
     },
     {
       "label": "USD/KRW",
-      "value": 1457.52,
-      "changePercent": -0.67
+      "value": 1448.99,
+      "changePercent": -0.59
     }
   ],
-  "lastUpdated": "2026-07-29",
-  "todaySignal": "같은 반도체인데 하이닉스는 삼성전자보다 두 배 더 빠졌습니다. 왜일까요"
+  "lastUpdated": "2026-07-30",
+  "todaySignal": "외국인이 오늘 1.3조를 담았습니다. 근데 저는 마냥 반갑지 않았어요"
 }
