@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5593.56,
-      "changePercent": -1.23
+      "value": 6595.45,
+      "changePercent": 17.91
     },
     {
       "label": "KOSDAQ",
-      "value": 644.78,
-      "changePercent": -2.7
+      "value": 719.76,
+      "changePercent": 11.63
     },
     {
       "label": "USD/KRW",
-      "value": 1448.99,
-      "changePercent": -0.59
+      "value": 1429.51,
+      "changePercent": -1.34
     }
   ],
-  "lastUpdated": "2026-07-30",
-  "todaySignal": "외국인이 오늘 1.3조를 담았습니다. 근데 저는 마냥 반갑지 않았어요"
+  "lastUpdated": "2026-07-31",
+  "todaySignal": "하이닉스는 상한가로 잠겼는데, 삼성전자와의 격차는 오히려 벌어졌습니다"
 }
