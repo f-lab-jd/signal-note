@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6595.45,
-      "changePercent": 17.91
+      "value": 6257.45,
+      "changePercent": -5.12
     },
     {
       "label": "KOSDAQ",
-      "value": 719.76,
-      "changePercent": 11.63
+      "value": 737.35,
+      "changePercent": 2.44
     },
     {
       "label": "USD/KRW",
-      "value": 1438.2,
-      "changePercent": -0.09
+      "value": 1440.53,
+      "changePercent": 0.16
     }
   ],
-  "lastUpdated": "2026-08-02",
-  "todaySignal": "워런 버핏이 종목 살 때 제일 먼저 보는 숫자가 있습니다. ROE를 아직 모른다면요"
+  "lastUpdated": "2026-08-03",
+  "todaySignal": "마이크론 쇼크에도 엔비디아는 올랐습니다. 오늘 하이닉스는 어디 편일까요"
 }
