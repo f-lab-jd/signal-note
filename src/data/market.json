@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6257.45,
-      "changePercent": -5.12
+      "value": 6358.95,
+      "changePercent": 1.62
     },
     {
       "label": "KOSDAQ",
-      "value": 737.35,
-      "changePercent": 2.44
+      "value": 780.72,
+      "changePercent": 5.88
     },
     {
       "label": "USD/KRW",
-      "value": 1440.53,
-      "changePercent": 0.16
+      "value": 1429.59,
+      "changePercent": -0.76
     }
   ],
-  "lastUpdated": "2026-08-03",
-  "todaySignal": "마이크론 쇼크에도 엔비디아는 올랐습니다. 오늘 하이닉스는 어디 편일까요"
+  "lastUpdated": "2026-08-04",
+  "todaySignal": "코스피가 100포인트 올랐는데, 저는 오늘 하나도 안 기뻤습니다"
 }
