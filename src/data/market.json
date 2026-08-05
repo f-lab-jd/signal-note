@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6358.95,
-      "changePercent": 1.62
+      "value": 6598.26,
+      "changePercent": 3.76
     },
     {
       "label": "KOSDAQ",
-      "value": 780.72,
-      "changePercent": 5.88
+      "value": 799.59,
+      "changePercent": 2.42
     },
     {
       "label": "USD/KRW",
-      "value": 1429.59,
-      "changePercent": -0.76
+      "value": 1428.89,
+      "changePercent": -0.05
     }
   ],
-  "lastUpdated": "2026-08-04",
-  "todaySignal": "코스피가 100포인트 올랐는데, 저는 오늘 하나도 안 기뻤습니다"
+  "lastUpdated": "2026-08-05",
+  "todaySignal": "삼성전자도 +2.5% 올랐습니다. 근데 저는 오늘 삼전이 졌다고 봅니다"
 }
