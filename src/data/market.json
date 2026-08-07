@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6296.38,
-      "changePercent": -4.58
+      "value": 6258.77,
+      "changePercent": -0.6
     },
     {
       "label": "KOSDAQ",
-      "value": 801.67,
-      "changePercent": 0.26
+      "value": 798.81,
+      "changePercent": -0.36
     },
     {
       "label": "USD/KRW",
-      "value": 1423.62,
-      "changePercent": -0.37
+      "value": 1423.48,
+      "changePercent": -0.01
     }
   ],
-  "lastUpdated": "2026-08-06",
-  "todaySignal": "코스피가 4.6% 빠졌는데, 오른 종목이 더 많았습니다"
+  "lastUpdated": "2026-08-07",
+  "todaySignal": "외국인이 오늘도 8천억을 던졌는데, 코스피는 왜 버텼을까요"
 }
