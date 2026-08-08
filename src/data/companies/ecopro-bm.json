@@ -11,7 +11,7 @@
     "pbr": 5.86,
     "roe": null,
     "dividendYield": 0.09,
-    "foreignOwnership": 14.81,
+    "foreignOwnership": 14.82,
     "weekRange52": {
       "low": 88200,
       "high": 260000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-07-03",
-      "close": 106200
-    },
     {
       "date": "2025-07-04",
       "close": 104100
@@ -1105,5 +1101,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-08-07"
+  "lastUpdated": "2026-08-08"
 }
