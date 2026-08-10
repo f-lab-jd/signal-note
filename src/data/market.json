@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6258.77,
-      "changePercent": -0.6
+      "value": 6299.66,
+      "changePercent": 0.65
     },
     {
       "label": "KOSDAQ",
-      "value": 798.81,
-      "changePercent": -0.36
+      "value": 854.47,
+      "changePercent": 6.97
     },
     {
       "label": "USD/KRW",
-      "value": 1412.2,
-      "changePercent": 0.04
+      "value": 1409.64,
+      "changePercent": -0.18
     }
   ],
-  "lastUpdated": "2026-08-09",
-  "todaySignal": "주가가 장부가의 3배인데 왜 삼성전자를 살까요. PBR 제대로 쓰는 법"
+  "lastUpdated": "2026-08-10",
+  "todaySignal": "코스닥이 하루에 7% 올랐는데, 저는 오늘 좀 불편했습니다"
 }
