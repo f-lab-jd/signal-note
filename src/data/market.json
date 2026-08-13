@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6579.04,
-      "changePercent": 3.68
+      "value": 6813.34,
+      "changePercent": 3.56
     },
     {
       "label": "KOSDAQ",
-      "value": 858.91,
-      "changePercent": 0.12
+      "value": 861.37,
+      "changePercent": 0.29
     },
     {
       "label": "USD/KRW",
-      "value": 1412.87,
-      "changePercent": -0.29
+      "value": 1416.77,
+      "changePercent": 0.28
     }
   ],
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "todaySignal": "간밤 반도체만 혼자 3% 무너졌는데, 저는 오늘 하이닉스보다 이걸 먼저 봅니다"
 }
