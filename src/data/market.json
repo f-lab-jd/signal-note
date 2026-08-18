@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6977.94,
-      "changePercent": 2.42
+      "value": 6869.83,
+      "changePercent": -1.55
     },
     {
       "label": "KOSDAQ",
-      "value": 864.65,
-      "changePercent": 0.38
+      "value": 834.2,
+      "changePercent": -3.52
     },
     {
       "label": "USD/KRW",
-      "value": 1415.1,
-      "changePercent": 0.02
+      "value": 1414.42,
+      "changePercent": -0.05
     }
   ],
-  "lastUpdated": "2026-08-17",
-  "todaySignal": "금요일 SOX는 빠졌는데, 하이닉스는 +3.3% 올랐습니다. 이 엇갈림에 오늘 신호가 있어요"
+  "lastUpdated": "2026-08-18",
+  "todaySignal": "코스피가 108포인트 날아간 날, 딱 한 종목만 초록불이었습니다"
 }
