@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6869.83,
-      "changePercent": -1.55
+      "value": 6471.17,
+      "changePercent": -5.8
     },
     {
       "label": "KOSDAQ",
-      "value": 834.2,
-      "changePercent": -3.52
+      "value": 824.46,
+      "changePercent": -1.17
     },
     {
       "label": "USD/KRW",
-      "value": 1414.42,
-      "changePercent": -0.05
+      "value": 1411.93,
+      "changePercent": -0.18
     }
   ],
-  "lastUpdated": "2026-08-18",
-  "todaySignal": "코스피가 108포인트 날아간 날, 딱 한 종목만 초록불이었습니다"
+  "lastUpdated": "2026-08-19",
+  "todaySignal": "하이닉스가 하루에 9.8% 빠졌는데, 저는 다른 숫자를 보고 있었습니다"
 }
