@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "반도체",
   "metrics": {
-    "marketCap": 210640,
-    "per": 118.37,
-    "pbr": 32.97,
+    "marketCap": 214929,
+    "per": 120.78,
+    "pbr": 33.64,
     "roe": null,
     "dividendYield": 0.36,
-    "foreignOwnership": 7.96,
+    "foreignOwnership": 7.9,
     "weekRange52": {
       "low": 81400,
       "high": 426000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-07-15",
-      "close": 91300
-    },
     {
       "date": "2025-07-16",
       "close": 91100
@@ -1092,14 +1088,18 @@
     {
       "date": "2026-08-19",
       "close": 221000
+    },
+    {
+      "date": "2026-08-20",
+      "close": 225500
     }
   ],
-  "dayChangePercent": -3.49,
-  "fiveDayChangePercent": 3.76,
+  "dayChangePercent": 2.04,
+  "fiveDayChangePercent": 3.68,
   "consensus": {
     "targetPrice": 380000,
     "rating": "매수",
     "analystCount": 0
   },
-  "lastUpdated": "2026-08-19"
+  "lastUpdated": "2026-08-20"
 }

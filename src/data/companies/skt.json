@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "통신",
   "metrics": {
-    "marketCap": 210494,
-    "per": 28.16,
-    "pbr": 1.57,
+    "marketCap": 207487,
+    "per": 27.76,
+    "pbr": 1.33,
     "roe": null,
     "dividendYield": null,
-    "foreignOwnership": 35.43,
+    "foreignOwnership": 35.23,
     "weekRange52": {
       "low": 51400,
       "high": 140300
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-07-15",
-      "close": 56000
-    },
     {
       "date": "2025-07-16",
       "close": 55900
@@ -1092,14 +1088,18 @@
     {
       "date": "2026-08-19",
       "close": 98000
+    },
+    {
+      "date": "2026-08-20",
+      "close": 96600
     }
   ],
-  "dayChangePercent": -1.8,
-  "fiveDayChangePercent": 13.95,
+  "dayChangePercent": -1.43,
+  "fiveDayChangePercent": 10.02,
   "consensus": {
     "targetPrice": 119368,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-08-19"
+  "lastUpdated": "2026-08-20"
 }

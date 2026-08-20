@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6471.17,
-      "changePercent": -5.8
+      "value": 6852.58,
+      "changePercent": 5.89
     },
     {
       "label": "KOSDAQ",
-      "value": 824.46,
-      "changePercent": -1.17
+      "value": 840.89,
+      "changePercent": 1.99
     },
     {
       "label": "USD/KRW",
-      "value": 1411.93,
-      "changePercent": -0.18
+      "value": 1391.03,
+      "changePercent": -1.48
     }
   ],
-  "lastUpdated": "2026-08-19",
-  "todaySignal": "하이닉스가 하루에 9.8% 빠졌는데, 저는 다른 숫자를 보고 있었습니다"
+  "lastUpdated": "2026-08-20",
+  "todaySignal": "간밤 미국 반도체는 내렸는데 코스피 혼자 5.9% 뛰었습니다. 이 돈은 어디서 왔을까요"
 }
