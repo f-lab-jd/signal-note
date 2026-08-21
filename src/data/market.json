@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6852.58,
-      "changePercent": 5.89
+      "value": 6912.95,
+      "changePercent": 0.88
     },
     {
       "label": "KOSDAQ",
-      "value": 840.89,
-      "changePercent": 1.99
+      "value": 801.94,
+      "changePercent": -4.63
     },
     {
       "label": "USD/KRW",
-      "value": 1391.03,
-      "changePercent": -1.48
+      "value": 1394.71,
+      "changePercent": 0.26
     }
   ],
-  "lastUpdated": "2026-08-20",
-  "todaySignal": "간밤 미국 반도체는 내렸는데 코스피 혼자 5.9% 뛰었습니다. 이 돈은 어디서 왔을까요"
+  "lastUpdated": "2026-08-21",
+  "todaySignal": "코스피는 올랐는데 계좌는 파랗습니다. 오늘 683이라는 숫자를 보고 이해했어요"
 }
