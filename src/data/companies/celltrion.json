@@ -22,10 +22,6 @@
   },
   "priceHistory": [
     {
-      "date": "2025-07-18",
-      "close": 171855
-    },
-    {
       "date": "2025-07-21",
       "close": 172713
     },
@@ -1097,5 +1093,5 @@
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-08-22"
+  "lastUpdated": "2026-08-23"
 }
