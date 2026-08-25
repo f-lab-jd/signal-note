@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6696.96,
-      "changePercent": -3.12
+      "value": 6742.74,
+      "changePercent": 0.68
     },
     {
       "label": "KOSDAQ",
-      "value": 813.33,
-      "changePercent": 1.42
+      "value": 827.15,
+      "changePercent": 1.7
     },
     {
       "label": "USD/KRW",
-      "value": 1385.48,
-      "changePercent": 0.07
+      "value": 1383.12,
+      "changePercent": -0.17
     }
   ],
-  "lastUpdated": "2026-08-24",
-  "todaySignal": "오늘 3.7조가 빠졌습니다. 그런데 코스닥은 웃은 이유"
+  "lastUpdated": "2026-08-25",
+  "todaySignal": "외국인이 3.8조를 던졌습니다. 그런데 코스피는 왜 올랐을까요"
 }
