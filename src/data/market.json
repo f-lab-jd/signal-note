@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6742.74,
-      "changePercent": 0.68
+      "value": 6808.21,
+      "changePercent": 0.97
     },
     {
       "label": "KOSDAQ",
-      "value": 827.15,
-      "changePercent": 1.7
+      "value": 826.87,
+      "changePercent": -0.03
     },
     {
       "label": "USD/KRW",
       "value": 1383.12,
-      "changePercent": -0.17
+      "changePercent": 0.0
     }
   ],
-  "lastUpdated": "2026-08-25",
-  "todaySignal": "외국인이 3.8조를 던졌습니다. 그런데 코스피는 왜 올랐을까요"
+  "lastUpdated": "2026-08-26",
+  "todaySignal": "프로그램이 1조 3천억을 팔았는데, 코스피는 올랐습니다"
 }
