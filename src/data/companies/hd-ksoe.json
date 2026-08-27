@@ -11,7 +11,7 @@
     "pbr": 1.72,
     "roe": null,
     "dividendYield": 3.41,
-    "foreignOwnership": 33.25,
+    "foreignOwnership": 33.21,
     "weekRange52": {
       "low": 314000,
       "high": 494500
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-07-22",
-      "close": 337500
-    },
     {
       "date": "2025-07-23",
       "close": 334500
@@ -1092,14 +1088,18 @@
     {
       "date": "2026-08-26",
       "close": 360500
+    },
+    {
+      "date": "2026-08-27",
+      "close": 360500
     }
   ],
-  "dayChangePercent": -0.55,
-  "fiveDayChangePercent": -1.77,
+  "dayChangePercent": 0.0,
+  "fiveDayChangePercent": 0.0,
   "consensus": {
     "targetPrice": 565857,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-08-26"
+  "lastUpdated": "2026-08-27"
 }
