@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "인터넷·플랫폼",
   "metrics": {
-    "marketCap": 329246,
-    "per": 16.8,
-    "pbr": 1.1,
+    "marketCap": 335329,
+    "per": 17.11,
+    "pbr": 1.12,
     "roe": null,
-    "dividendYield": 1.22,
-    "foreignOwnership": 36.04,
+    "dividendYield": 1.19,
+    "foreignOwnership": 35.95,
     "weekRange52": {
       "low": 181100,
       "high": 308500
@@ -40,10 +40,6 @@
     ]
   },
   "priceHistory": [
-    {
-      "date": "2025-07-23",
-      "close": 231500
-    },
     {
       "date": "2025-07-24",
       "close": 227000
@@ -1111,14 +1107,18 @@
     {
       "date": "2026-08-27",
       "close": 216500
+    },
+    {
+      "date": "2026-08-28",
+      "close": 220500
     }
   ],
-  "dayChangePercent": -1.59,
-  "fiveDayChangePercent": -1.37,
+  "dayChangePercent": 1.85,
+  "fiveDayChangePercent": -0.68,
   "consensus": {
     "targetPrice": 330565,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-08-27"
+  "lastUpdated": "2026-08-28"
 }
