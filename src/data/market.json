@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6820.02,
-      "changePercent": 0.46
+      "value": 6562.72,
+      "changePercent": -3.99
     },
     {
       "label": "KOSDAQ",
-      "value": 834.29,
-      "changePercent": -0.49
+      "value": 803.98,
+      "changePercent": -2.1
     },
     {
       "label": "USD/KRW",
-      "value": 1376.6,
-      "changePercent": -0.09
+      "value": 1373.78,
+      "changePercent": -0.2
     }
   ],
-  "lastUpdated": "2026-08-31",
-  "todaySignal": "달러인덱스 99. 이게 오늘 밤 가장 중요한 숫자인 이유"
+  "lastUpdated": "2026-09-02",
+  "todaySignal": "업종 78개가 전부 내린 날, 저는 코스닥 창을 먼저 켰습니다"
 }
