@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6562.72,
-      "changePercent": -3.99
+      "value": 6579.48,
+      "changePercent": 0.26
     },
     {
       "label": "KOSDAQ",
-      "value": 803.98,
-      "changePercent": -2.1
+      "value": 790.21,
+      "changePercent": -1.71
     },
     {
       "label": "USD/KRW",
-      "value": 1373.78,
-      "changePercent": -0.2
+      "value": 1361.14,
+      "changePercent": -0.92
     }
   ],
-  "lastUpdated": "2026-09-02",
-  "todaySignal": "업종 78개가 전부 내린 날, 저는 코스닥 창을 먼저 켰습니다"
+  "lastUpdated": "2026-09-03",
+  "todaySignal": "개인·외국인·기관이 전부 팔았습니다. 근데 코스피는 올랐어요"
 }
