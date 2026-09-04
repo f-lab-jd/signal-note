@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6579.48,
-      "changePercent": 0.26
+      "value": 6687.21,
+      "changePercent": 1.64
     },
     {
       "label": "KOSDAQ",
-      "value": 790.21,
-      "changePercent": -1.71
+      "value": 813.5,
+      "changePercent": 2.95
     },
     {
       "label": "USD/KRW",
-      "value": 1361.14,
-      "changePercent": -0.92
+      "value": 1356.73,
+      "changePercent": -0.32
     }
   ],
-  "lastUpdated": "2026-09-03",
-  "todaySignal": "개인·외국인·기관이 전부 팔았습니다. 근데 코스피는 올랐어요"
+  "lastUpdated": "2026-09-04",
+  "todaySignal": "은행·보험이 통째로 무너졌는데, 코스피는 +1.6% 올랐습니다"
 }
