@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6687.21,
-      "changePercent": 1.64
+      "value": 6995.39,
+      "changePercent": 4.61
     },
     {
       "label": "KOSDAQ",
-      "value": 813.5,
-      "changePercent": 2.95
+      "value": 822.19,
+      "changePercent": 1.07
     },
     {
       "label": "USD/KRW",
-      "value": 1349.84,
-      "changePercent": 0.06
+      "value": 1346.56,
+      "changePercent": -0.24
     }
   ],
-  "lastUpdated": "2026-09-06",
-  "todaySignal": "외국인은 사고 개인은 파는 날. 주가가 올랐습니다. 왜 이런 일이 반복될까요"
+  "lastUpdated": "2026-09-07",
+  "todaySignal": "레이버데이라 미장 쉽니다. 내일 아침 이 숫자가 분기점입니다"
 }
