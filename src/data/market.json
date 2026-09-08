@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6995.39,
-      "changePercent": 4.61
+      "value": 6954.52,
+      "changePercent": -0.58
     },
     {
       "label": "KOSDAQ",
-      "value": 822.19,
-      "changePercent": 1.07
+      "value": 811.88,
+      "changePercent": -1.25
     },
     {
       "label": "USD/KRW",
-      "value": 1346.56,
-      "changePercent": -0.24
+      "value": 1345.38,
+      "changePercent": -0.09
     }
   ],
-  "lastUpdated": "2026-09-07",
-  "todaySignal": "레이버데이라 미장 쉽니다. 내일 아침 이 숫자가 분기점입니다"
+  "lastUpdated": "2026-09-08",
+  "todaySignal": "개인이 하루에 3조를 던졌습니다. 근데 저는 이게 나쁜 신호로 안 보였어요"
 }
