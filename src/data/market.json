@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6954.52,
-      "changePercent": -0.58
+      "value": 7051.64,
+      "changePercent": 1.4
     },
     {
       "label": "KOSDAQ",
-      "value": 811.88,
-      "changePercent": -1.25
+      "value": 830.37,
+      "changePercent": 2.28
     },
     {
       "label": "USD/KRW",
-      "value": 1345.38,
-      "changePercent": -0.09
+      "value": 1340.86,
+      "changePercent": -0.34
     }
   ],
-  "lastUpdated": "2026-09-08",
-  "todaySignal": "개인이 하루에 3조를 던졌습니다. 근데 저는 이게 나쁜 신호로 안 보였어요"
+  "lastUpdated": "2026-09-09",
+  "todaySignal": "코스피가 1.4% 올랐는데 삼성전자만 0%였습니다. 저는 이게 더 무서웠어요"
 }
