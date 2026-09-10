@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7051.64,
-      "changePercent": 1.4
+      "value": 7033.92,
+      "changePercent": -0.25
     },
     {
       "label": "KOSDAQ",
-      "value": 830.37,
-      "changePercent": 2.28
+      "value": 836.92,
+      "changePercent": 0.79
     },
     {
       "label": "USD/KRW",
-      "value": 1340.86,
-      "changePercent": -0.34
+      "value": 1339.0,
+      "changePercent": -0.14
     }
   ],
-  "lastUpdated": "2026-09-09",
-  "todaySignal": "코스피가 1.4% 올랐는데 삼성전자만 0%였습니다. 저는 이게 더 무서웠어요"
+  "lastUpdated": "2026-09-10",
+  "todaySignal": "외국인이 2조 5천억을 던졌는데, 오늘 코스피를 받아낸 건 따로 있었습니다"
 }
