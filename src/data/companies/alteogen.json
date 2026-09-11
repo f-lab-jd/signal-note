@@ -6,12 +6,12 @@
   "market": "KOSDAQ",
   "sector": "바이오",
   "metrics": {
-    "marketCap": 192945,
-    "per": 101.32,
-    "pbr": 36.23,
+    "marketCap": 186676,
+    "per": 98.02,
+    "pbr": 35.05,
     "roe": null,
-    "dividendYield": 0.1,
-    "foreignOwnership": 15.05,
+    "dividendYield": 0.11,
+    "foreignOwnership": 15.09,
     "weekRange52": {
       "low": 253000,
       "high": 569000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-08-06",
-      "close": 338174
-    },
     {
       "date": "2025-08-07",
       "close": 332403
@@ -1092,14 +1088,18 @@
     {
       "date": "2026-09-10",
       "close": 277000
+    },
+    {
+      "date": "2026-09-11",
+      "close": 268000
     }
   ],
-  "dayChangePercent": -0.89,
-  "fiveDayChangePercent": -2.12,
+  "dayChangePercent": -3.25,
+  "fiveDayChangePercent": -7.11,
   "consensus": {
     "targetPrice": 447500,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-09-10"
+  "lastUpdated": "2026-09-11"
 }

@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7033.92,
-      "changePercent": -0.25
+      "value": 6909.91,
+      "changePercent": -1.76
     },
     {
       "label": "KOSDAQ",
-      "value": 836.92,
-      "changePercent": 0.79
+      "value": 820.64,
+      "changePercent": -1.95
     },
     {
       "label": "USD/KRW",
-      "value": 1339.0,
-      "changePercent": -0.14
+      "value": 1345.06,
+      "changePercent": 0.45
     }
   ],
-  "lastUpdated": "2026-09-10",
-  "todaySignal": "외국인이 2조 5천억을 던졌는데, 오늘 코스피를 받아낸 건 따로 있었습니다"
+  "lastUpdated": "2026-09-11",
+  "todaySignal": "어제 이 수급이면 낙폭이 -1% 안에서 막힌다고 썼습니다. 오늘 그게 깨졌어요"
 }
