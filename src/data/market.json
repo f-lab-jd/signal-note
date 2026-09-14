@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6909.91,
-      "changePercent": -1.76
+      "value": 6684.37,
+      "changePercent": -3.26
     },
     {
       "label": "KOSDAQ",
-      "value": 820.64,
-      "changePercent": -1.95
+      "value": 806.79,
+      "changePercent": -1.69
     },
     {
       "label": "USD/KRW",
-      "value": 1343.03,
-      "changePercent": 0.04
+      "value": 1342.63,
+      "changePercent": -0.03
     }
   ],
-  "lastUpdated": "2026-09-13",
+  "lastUpdated": "2026-09-14",
   "todaySignal": "알파벳이 495억달러를 끌어왔습니다. 좋은 실적보다 먼저 봐야 할 이유"
 }
