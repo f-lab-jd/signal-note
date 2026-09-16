@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6627.26,
-      "changePercent": -0.85
+      "value": 6717.97,
+      "changePercent": 1.37
     },
     {
       "label": "KOSDAQ",
-      "value": 812.41,
-      "changePercent": 0.7
+      "value": 815.98,
+      "changePercent": 0.44
     },
     {
       "label": "USD/KRW",
-      "value": 1347.2,
-      "changePercent": 0.34
+      "value": 1360.36,
+      "changePercent": 0.98
     }
   ],
-  "lastUpdated": "2026-09-15",
-  "todaySignal": "알파벳이 495억달러를 끌어왔습니다. 좋은 실적보다 먼저 봐야 할 이유"
+  "lastUpdated": "2026-09-16",
+  "todaySignal": "08:14 프리마켓 신호는 종가에 맞았을까. 반도체 동행을 대조합니다"
 }
