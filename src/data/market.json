@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6715.41,
-      "changePercent": -0.04
+      "value": 6894.23,
+      "changePercent": 2.66
     },
     {
       "label": "KOSDAQ",
-      "value": 822.18,
-      "changePercent": 0.76
+      "value": 827.12,
+      "changePercent": 0.6
     },
     {
       "label": "USD/KRW",
-      "value": 1369.81,
-      "changePercent": 0.69
+      "value": 1380.5,
+      "changePercent": 0.78
     }
   ],
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "todaySignal": "08:14 프리마켓 신호는 종가에 맞았을까. 반도체 동행을 대조합니다"
 }
