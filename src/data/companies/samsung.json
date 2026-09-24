@@ -41,10 +41,6 @@
   },
   "priceHistory": [
     {
-      "date": "2025-08-19",
-      "close": 70000
-    },
-    {
       "date": "2025-08-20",
       "close": 70500
     },
@@ -1120,9 +1116,9 @@
   "dayChangePercent": 3.62,
   "fiveDayChangePercent": 13.02,
   "consensus": {
-    "targetPrice": 487381,
+    "targetPrice": 493864,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-09-23"
+  "lastUpdated": "2026-09-24"
 }
