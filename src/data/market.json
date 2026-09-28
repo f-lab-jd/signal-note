@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7080.92,
-      "changePercent": 0.9
+      "value": 6889.74,
+      "changePercent": -2.7
     },
     {
       "label": "KOSDAQ",
-      "value": 844.48,
-      "changePercent": 1.21
+      "value": 846.58,
+      "changePercent": 0.25
     },
     {
       "label": "USD/KRW",
-      "value": 1357.05,
-      "changePercent": -0.03
+      "value": 1356.04,
+      "changePercent": -0.07
     }
   ],
-  "lastUpdated": "2026-09-27",
+  "lastUpdated": "2026-09-28",
   "todaySignal": "ETF가 같은 지수를 따라도 체결가는 왜 다를까요? NAV·괴리·호가로 읽기"
 }
