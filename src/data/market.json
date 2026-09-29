@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6889.74,
-      "changePercent": -2.7
+      "value": 6870.81,
+      "changePercent": -0.27
     },
     {
       "label": "KOSDAQ",
-      "value": 846.58,
-      "changePercent": 0.25
+      "value": 849.8,
+      "changePercent": 0.38
     },
     {
       "label": "USD/KRW",
-      "value": 1356.04,
-      "changePercent": -0.07
+      "value": 1358.97,
+      "changePercent": 0.22
     }
   ],
-  "lastUpdated": "2026-09-28",
-  "todaySignal": "ETF가 같은 지수를 따라도 체결가는 왜 다를까요? NAV·괴리·호가로 읽기"
+  "lastUpdated": "2026-09-29",
+  "todaySignal": "나스닥 하락 뒤 엔비디아 반등, 오늘 미국장 첫 확인은 무엇일까요?"
 }
