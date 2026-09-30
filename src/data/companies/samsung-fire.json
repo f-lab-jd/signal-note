@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "보험",
   "metrics": {
-    "marketCap": 291102,
-    "per": 14.82,
-    "pbr": 0.77,
+    "marketCap": 283065,
+    "per": 14.41,
+    "pbr": 0.75,
     "roe": null,
-    "dividendYield": 2.99,
-    "foreignOwnership": 57.55,
+    "dividendYield": 3.08,
+    "foreignOwnership": 57.53,
     "weekRange52": {
       "low": 419000,
       "high": 757000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-08-25",
-      "close": 441000
-    },
     {
       "date": "2025-08-26",
       "close": 436500
@@ -1088,14 +1084,18 @@
     {
       "date": "2026-09-29",
       "close": 652000
+    },
+    {
+      "date": "2026-09-30",
+      "close": 634000
     }
   ],
-  "dayChangePercent": -1.36,
-  "fiveDayChangePercent": -0.46,
+  "dayChangePercent": -2.91,
+  "fiveDayChangePercent": -3.06,
   "consensus": {
     "targetPrice": 778125,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-09-29"
+  "lastUpdated": "2026-09-30"
 }

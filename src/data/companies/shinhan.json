@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "금융",
   "metrics": {
-    "marketCap": 517804,
-    "per": 9.87,
-    "pbr": 0.86,
+    "marketCap": 499965,
+    "per": 9.53,
+    "pbr": 0.83,
     "roe": null,
-    "dividendYield": 2.35,
-    "foreignOwnership": 61.6,
+    "dividendYield": 2.43,
+    "foreignOwnership": 61.55,
     "weekRange52": {
       "low": 68100,
       "high": 116500
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-08-25",
-      "close": 66700
-    },
     {
       "date": "2025-08-26",
       "close": 65000
@@ -1088,14 +1084,18 @@
     {
       "date": "2026-09-29",
       "close": 110300
+    },
+    {
+      "date": "2026-09-30",
+      "close": 106500
     }
   ],
-  "dayChangePercent": -0.9,
-  "fiveDayChangePercent": -0.72,
+  "dayChangePercent": -3.62,
+  "fiveDayChangePercent": -5.92,
   "consensus": {
-    "targetPrice": 137556,
+    "targetPrice": 138111,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-09-29"
+  "lastUpdated": "2026-09-30"
 }

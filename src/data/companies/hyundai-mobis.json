@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "자동차부품",
   "metrics": {
-    "marketCap": 330091,
-    "per": 9.22,
-    "pbr": 0.63,
+    "marketCap": 345360,
+    "per": 9.64,
+    "pbr": 0.66,
     "roe": null,
-    "dividendYield": 1.77,
-    "foreignOwnership": 37.83,
+    "dividendYield": 1.69,
+    "foreignOwnership": 37.72,
     "weekRange52": {
       "low": 283000,
       "high": 822000
@@ -21,10 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-08-25",
-      "close": 299000
-    },
     {
       "date": "2025-08-26",
       "close": 299500
@@ -1088,14 +1084,18 @@
     {
       "date": "2026-09-29",
       "close": 367500
+    },
+    {
+      "date": "2026-09-30",
+      "close": 384500
     }
   ],
-  "dayChangePercent": -1.47,
-  "fiveDayChangePercent": -3.42,
+  "dayChangePercent": 4.77,
+  "fiveDayChangePercent": 2.67,
   "consensus": {
     "targetPrice": 721200,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-09-29"
+  "lastUpdated": "2026-09-30"
 }

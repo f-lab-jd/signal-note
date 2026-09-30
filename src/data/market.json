@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6870.81,
-      "changePercent": -0.27
+      "value": 6838.04,
+      "changePercent": -0.48
     },
     {
       "label": "KOSDAQ",
-      "value": 849.8,
-      "changePercent": 0.38
+      "value": 855.91,
+      "changePercent": 0.72
     },
     {
       "label": "USD/KRW",
-      "value": 1358.97,
-      "changePercent": 0.22
+      "value": 1353.68,
+      "changePercent": -0.39
     }
   ],
-  "lastUpdated": "2026-09-29",
-  "todaySignal": "나스닥 하락 뒤 엔비디아 반등, 오늘 미국장 첫 확인은 무엇일까요?"
+  "lastUpdated": "2026-09-30",
+  "todaySignal": "분기 마지막 미국장, 금리·변동성·고용 일정을 어떤 순서로 볼까요?"
 }
