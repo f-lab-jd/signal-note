@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6838.04,
-      "changePercent": -0.48
+      "value": 6971.35,
+      "changePercent": 1.95
     },
     {
       "label": "KOSDAQ",
-      "value": 855.91,
-      "changePercent": 0.72
+      "value": 894.29,
+      "changePercent": 4.48
     },
     {
       "label": "USD/KRW",
-      "value": 1353.68,
-      "changePercent": -0.39
+      "value": 1355.84,
+      "changePercent": 0.16
     }
   ],
-  "lastUpdated": "2026-09-30",
-  "todaySignal": "분기 마지막 미국장, 금리·변동성·고용 일정을 어떤 순서로 볼까요?"
+  "lastUpdated": "2026-10-01",
+  "todaySignal": "엔비디아 장전 상승과 제조업 지표, 오늘 미국장에선 무엇을 먼저 확인할까요?"
 }
