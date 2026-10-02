@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6971.35,
-      "changePercent": 1.95
+      "value": 7003.74,
+      "changePercent": 0.46
     },
     {
       "label": "KOSDAQ",
-      "value": 894.29,
-      "changePercent": 4.48
+      "value": 893.29,
+      "changePercent": -0.11
     },
     {
       "label": "USD/KRW",
-      "value": 1355.84,
-      "changePercent": 0.16
+      "value": 1360.2,
+      "changePercent": 0.32
     }
   ],
-  "lastUpdated": "2026-10-01",
-  "todaySignal": "엔비디아 장전 상승과 제조업 지표, 오늘 미국장에선 무엇을 먼저 확인할까요?"
+  "lastUpdated": "2026-10-02",
+  "todaySignal": "미국 반도체지수 +1.6% 뒤, 오늘 한국장 첫 거래에서 무엇을 확인할까요?"
 }
