@@ -1085,9 +1085,9 @@
   "dayChangePercent": -0.1,
   "fiveDayChangePercent": 0.5,
   "consensus": {
-    "targetPrice": 365294,
+    "targetPrice": 366250,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-10-04"
+  "lastUpdated": "2026-10-05"
 }

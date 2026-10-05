@@ -12,10 +12,10 @@
     },
     {
       "label": "USD/KRW",
-      "value": 1348.61,
-      "changePercent": 0.09
+      "value": 1344.61,
+      "changePercent": -0.3
     }
   ],
-  "lastUpdated": "2026-10-04",
-  "todaySignal": "나스닥 +1.2%에 반도체 +2.4%, 금리 상승은 어떻게 따로 읽을까요?"
+  "lastUpdated": "2026-10-05",
+  "todaySignal": "[시그널 클래스] 흑자인데 현금은 왜 줄까? 재무제표 3칸 읽기"
 }
