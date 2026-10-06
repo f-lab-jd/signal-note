@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 7003.74,
-      "changePercent": 0.46
+      "value": 6941.39,
+      "changePercent": -0.89
     },
     {
       "label": "KOSDAQ",
-      "value": 893.29,
-      "changePercent": -0.11
+      "value": 919.92,
+      "changePercent": 2.98
     },
     {
       "label": "USD/KRW",
-      "value": 1344.61,
-      "changePercent": -0.3
+      "value": 1342.77,
+      "changePercent": -0.14
     }
   ],
-  "lastUpdated": "2026-10-05",
-  "todaySignal": "[시그널 클래스] 흑자인데 현금은 왜 줄까? 재무제표 3칸 읽기"
+  "lastUpdated": "2026-10-06",
+  "todaySignal": "고용 +2.9만 명·서비스 가격지수 74.0, 오늘 미국장에서는 무엇을 나눠 볼까요?"
 }
