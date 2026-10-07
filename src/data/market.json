@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6941.39,
-      "changePercent": -0.89
+      "value": 6803.9,
+      "changePercent": -1.98
     },
     {
       "label": "KOSDAQ",
-      "value": 919.92,
-      "changePercent": 2.98
+      "value": 898.43,
+      "changePercent": -2.34
     },
     {
       "label": "USD/KRW",
-      "value": 1342.77,
-      "changePercent": -0.14
+      "value": 1338.92,
+      "changePercent": -0.29
     }
   ],
-  "lastUpdated": "2026-10-06",
-  "todaySignal": "고용 +2.9만 명·서비스 가격지수 74.0, 오늘 미국장에서는 무엇을 나눠 볼까요?"
+  "lastUpdated": "2026-10-07",
+  "todaySignal": "10월 7일 미국장, 개장 뒤 세 발표를 어떤 순서로 확인할까요?"
 }
