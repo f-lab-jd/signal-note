@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6803.9,
-      "changePercent": -1.98
+      "value": 6625.93,
+      "changePercent": -2.62
     },
     {
       "label": "KOSDAQ",
-      "value": 898.43,
-      "changePercent": -2.34
+      "value": 892.27,
+      "changePercent": -0.69
     },
     {
       "label": "USD/KRW",
-      "value": 1338.92,
-      "changePercent": -0.29
+      "value": 1339.09,
+      "changePercent": 0.01
     }
   ],
-  "lastUpdated": "2026-10-07",
-  "todaySignal": "10월 7일 미국장, 개장 뒤 세 발표를 어떤 순서로 확인할까요?"
+  "lastUpdated": "2026-10-08",
+  "todaySignal": "실업수당 청구 19만7천 건, 10월 8일 미국장 개장 전 무엇을 따로 볼까요?"
 }
