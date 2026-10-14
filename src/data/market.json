@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6035.35,
-      "changePercent": -5.46
+      "value": 6008.81,
+      "changePercent": -0.44
     },
     {
       "label": "KOSDAQ",
-      "value": 837.03,
-      "changePercent": -1.43
+      "value": 823.88,
+      "changePercent": -1.57
     },
     {
       "label": "USD/KRW",
-      "value": 1333.74,
-      "changePercent": -0.52
+      "value": 1340.88,
+      "changePercent": 0.54
     }
   ],
-  "lastUpdated": "2026-10-13",
+  "lastUpdated": "2026-10-14",
   "todaySignal": "10월 12일 반도체 -2.7%, 채권 휴장일의 미국장 하락을 어떻게 읽을까요?"
 }
