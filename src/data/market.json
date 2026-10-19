@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5668.05,
-      "changePercent": 2.05
+      "value": 5768.01,
+      "changePercent": 1.76
     },
     {
       "label": "KOSDAQ",
-      "value": 794.78,
-      "changePercent": 4.46
+      "value": 808.89,
+      "changePercent": 1.78
     },
     {
       "label": "USD/KRW",
-      "value": 1334.77,
-      "changePercent": -0.01
+      "value": 1333.6,
+      "changePercent": -0.09
     }
   ],
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-10-19",
   "todaySignal": "10월 14일 반도체 -4.3%, 은행·한국 ETF와 낙폭이 왜 다를까요?"
 }
