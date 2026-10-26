@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5550.3,
-      "changePercent": 0.3
+      "value": 5469.47,
+      "changePercent": -1.46
     },
     {
       "label": "KOSDAQ",
-      "value": 751.69,
-      "changePercent": -1.62
+      "value": 727.21,
+      "changePercent": -3.26
     },
     {
       "label": "USD/KRW",
-      "value": 1324.82,
-      "changePercent": 0.01
+      "value": 1323.9,
+      "changePercent": -0.07
     }
   ],
-  "lastUpdated": "2026-10-25",
-  "todaySignal": "10월 22일 나스닥 하락, 반도체·금리·애플은 왜 다르게 움직였을까요?"
+  "lastUpdated": "2026-10-26",
+  "todaySignal": "[시그널 클래스] 10% 오른 뒤 10% 내리면 원금일까요? 복리 계산 네 칸"
 }
