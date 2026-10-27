@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5469.47,
-      "changePercent": -1.46
+      "value": 5638.34,
+      "changePercent": 3.09
     },
     {
       "label": "KOSDAQ",
-      "value": 727.21,
-      "changePercent": -3.26
+      "value": 743.83,
+      "changePercent": 2.29
     },
     {
       "label": "USD/KRW",
-      "value": 1323.9,
-      "changePercent": -0.07
+      "value": 1325.19,
+      "changePercent": 0.1
     }
   ],
-  "lastUpdated": "2026-10-26",
-  "todaySignal": "[시그널 클래스] 10% 오른 뒤 10% 내리면 원금일까요? 복리 계산 네 칸"
+  "lastUpdated": "2026-10-27",
+  "todaySignal": "미국장 올랐는데 금리는 그대로? 10월 26일 마감의 네 신호"
 }
