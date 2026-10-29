@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 6012.44,
-      "changePercent": 6.63
+      "value": 5937.66,
+      "changePercent": -1.24
     },
     {
       "label": "KOSDAQ",
-      "value": 771.28,
-      "changePercent": 3.69
+      "value": 753.23,
+      "changePercent": -2.34
     },
     {
       "label": "USD/KRW",
-      "value": 1326.81,
-      "changePercent": 0.12
+      "value": 1340.24,
+      "changePercent": 1.01
     }
   ],
-  "lastUpdated": "2026-10-28",
+  "lastUpdated": "2026-10-29",
   "todaySignal": "나스닥 1.2% 상승, 금리도 같은 방향이었나"
 }
