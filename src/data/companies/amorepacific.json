@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "화장품",
   "metrics": {
-    "marketCap": 72005,
-    "per": 29.72,
-    "pbr": 1.52,
+    "marketCap": 74988,
+    "per": 30.95,
+    "pbr": 1.59,
     "roe": null,
-    "dividendYield": 1.01,
-    "foreignOwnership": 26.14,
+    "dividendYield": 0.97,
+    "foreignOwnership": 26.16,
     "weekRange52": {
       "low": 94000,
       "high": 169000
@@ -21,14 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-09-24",
-      "close": 125400
-    },
-    {
-      "date": "2025-09-25",
-      "close": 125500
-    },
     {
       "date": "2025-09-26",
       "close": 122400
@@ -1080,14 +1072,18 @@
     {
       "date": "2026-10-29",
       "close": 123100
+    },
+    {
+      "date": "2026-10-30",
+      "close": 128200
     }
   ],
-  "dayChangePercent": -1.12,
-  "fiveDayChangePercent": -7.02,
+  "dayChangePercent": 3.05,
+  "fiveDayChangePercent": -0.7,
   "consensus": {
-    "targetPrice": 184150,
+    "targetPrice": 184650,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-10-29"
+  "lastUpdated": "2026-10-31"
 }

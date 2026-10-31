@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "바이오",
   "metrics": {
-    "marketCap": 442331,
-    "per": 29.02,
+    "marketCap": 441403,
+    "per": 28.96,
     "pbr": 2.43,
     "roe": null,
     "dividendYield": 0.38,
-    "foreignOwnership": 25.63,
+    "foreignOwnership": 25.59,
     "weekRange52": {
       "low": 157700,
       "high": 258500
@@ -21,14 +21,6 @@
     "annual": []
   },
   "priceHistory": [
-    {
-      "date": "2025-09-24",
-      "close": 168615
-    },
-    {
-      "date": "2025-09-25",
-      "close": 169568
-    },
     {
       "date": "2025-09-26",
       "close": 169663
@@ -1080,14 +1072,18 @@
     {
       "date": "2026-10-29",
       "close": 190600
+    },
+    {
+      "date": "2026-10-30",
+      "close": 190200
     }
   ],
-  "dayChangePercent": 0.42,
-  "fiveDayChangePercent": -1.5,
+  "dayChangePercent": 0.48,
+  "fiveDayChangePercent": -1.25,
   "consensus": {
     "targetPrice": 284000,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-10-29"
+  "lastUpdated": "2026-10-31"
 }
