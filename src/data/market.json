@@ -12,10 +12,10 @@
     },
     {
       "label": "USD/KRW",
-      "value": 1334.51,
-      "changePercent": -0.43
+      "value": 1334.8,
+      "changePercent": 0.02
     }
   ],
-  "lastUpdated": "2026-10-31",
+  "lastUpdated": "2026-11-01",
   "todaySignal": "나스닥 1.2% 상승, 금리도 같은 방향이었나"
 }
