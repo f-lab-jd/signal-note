@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5859.08,
-      "changePercent": 2.24
+      "value": 5648.79,
+      "changePercent": -3.59
     },
     {
       "label": "KOSDAQ",
-      "value": 734.36,
-      "changePercent": 1.38
+      "value": 704.39,
+      "changePercent": -4.08
     },
     {
       "label": "USD/KRW",
-      "value": 1332.76,
-      "changePercent": -0.15
+      "value": 1344.13,
+      "changePercent": 0.85
     }
   ],
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-03",
   "todaySignal": "11월 2일 상승장, 두 시장의 수급은 같은 방향이었을까요?"
 }
