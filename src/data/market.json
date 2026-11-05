@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5683.8,
-      "changePercent": 0.62
+      "value": 5383.8,
+      "changePercent": -5.28
     },
     {
       "label": "KOSDAQ",
-      "value": 714.95,
-      "changePercent": 1.5
+      "value": 678.41,
+      "changePercent": -5.11
     },
     {
       "label": "USD/KRW",
-      "value": 1343.93,
-      "changePercent": -0.01
+      "value": 1340.31,
+      "changePercent": -0.27
     }
   ],
-  "lastUpdated": "2026-11-04",
+  "lastUpdated": "2026-11-05",
   "todaySignal": "코스피 -3.6% 급락, 원/달러도 같은 방향이었을까요?"
 }
