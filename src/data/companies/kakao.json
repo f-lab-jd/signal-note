@@ -1099,14 +1099,18 @@
     {
       "date": "2026-11-09",
       "close": 31800
+    },
+    {
+      "date": "2026-11-10",
+      "close": 31800
     }
   ],
-  "dayChangePercent": -1.55,
-  "fiveDayChangePercent": 6.71,
+  "dayChangePercent": -0.93,
+  "fiveDayChangePercent": 10.03,
   "consensus": {
-    "targetPrice": 46682,
+    "targetPrice": 45952,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-11-09"
+  "lastUpdated": "2026-11-10"
 }

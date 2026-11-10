@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "화학",
   "metrics": {
-    "marketCap": 156715,
+    "marketCap": 165539,
     "per": null,
-    "pbr": 0.49,
+    "pbr": 0.52,
     "roe": null,
-    "dividendYield": 0.9,
-    "foreignOwnership": 36.17,
+    "dividendYield": 0.85,
+    "foreignOwnership": 36.14,
     "weekRange52": {
       "low": 218000,
       "high": 437500
@@ -1080,14 +1080,18 @@
     {
       "date": "2026-11-09",
       "close": 222000
+    },
+    {
+      "date": "2026-11-10",
+      "close": 234500
     }
   ],
-  "dayChangePercent": -4.31,
-  "fiveDayChangePercent": -7.69,
+  "dayChangePercent": 6.59,
+  "fiveDayChangePercent": -1.68,
   "consensus": {
-    "targetPrice": 353364,
+    "targetPrice": 355583,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-11-09"
+  "lastUpdated": "2026-11-10"
 }

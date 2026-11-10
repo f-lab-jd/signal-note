@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5018.85,
-      "changePercent": -0.81
+      "value": 5239.13,
+      "changePercent": 4.39
     },
     {
       "label": "KOSDAQ",
-      "value": 638.97,
-      "changePercent": -0.82
+      "value": 667.61,
+      "changePercent": 4.48
     },
     {
       "label": "USD/KRW",
-      "value": 1361.4,
-      "changePercent": 0.44
+      "value": 1344.79,
+      "changePercent": -1.22
     }
   ],
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-10",
   "todaySignal": "나스닥 -5.5%, 반도체는 얼마나 더 밀렸을까요?"
 }
