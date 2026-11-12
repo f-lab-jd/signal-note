@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5375.36,
-      "changePercent": 2.6
+      "value": 5342.73,
+      "changePercent": -0.61
     },
     {
       "label": "KOSDAQ",
-      "value": 705.1,
-      "changePercent": 5.62
+      "value": 696.53,
+      "changePercent": -1.22
     },
     {
       "label": "USD/KRW",
-      "value": 1341.69,
-      "changePercent": -0.23
+      "value": 1336.6,
+      "changePercent": -0.38
     }
   ],
-  "lastUpdated": "2026-11-11",
-  "todaySignal": "CPI +0.4% 다음 미국장, 먼저 확인할 숫자는?"
+  "lastUpdated": "2026-11-12",
+  "todaySignal": "모닝 숫자 11월 12일, 코스닥을 산 건 외국인이 아니었습니다"
 }
