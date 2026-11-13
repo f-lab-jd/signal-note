@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5342.73,
-      "changePercent": -0.61
+      "value": 5290.53,
+      "changePercent": -0.98
     },
     {
       "label": "KOSDAQ",
-      "value": 696.53,
-      "changePercent": -1.22
+      "value": 699.66,
+      "changePercent": 0.45
     },
     {
       "label": "USD/KRW",
-      "value": 1336.6,
-      "changePercent": -0.38
+      "value": 1334.18,
+      "changePercent": -0.18
     }
   ],
-  "lastUpdated": "2026-11-12",
-  "todaySignal": "모닝 숫자 11월 12일, 코스닥을 산 건 외국인이 아니었습니다"
+  "lastUpdated": "2026-11-13",
+  "todaySignal": "모닝 숫자 11월 13일, 외국인은 하이닉스를 팔아 삼성전자를 샀습니다"
 }

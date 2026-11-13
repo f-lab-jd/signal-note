@@ -6,12 +6,12 @@
   "market": "KOSPI",
   "sector": "게임",
   "metrics": {
-    "marketCap": 91193,
-    "per": 11.33,
-    "pbr": 1.21,
+    "marketCap": 90147,
+    "per": 11.2,
+    "pbr": 1.19,
     "roe": null,
-    "dividendYield": 1.12,
-    "foreignOwnership": 43.84,
+    "dividendYield": 1.13,
+    "foreignOwnership": 43.81,
     "weekRange52": {
       "low": 173000,
       "high": 303500
@@ -1092,14 +1092,18 @@
     {
       "date": "2026-11-12",
       "close": 200500
+    },
+    {
+      "date": "2026-11-13",
+      "close": 198200
     }
   ],
-  "dayChangePercent": 2.4,
-  "fiveDayChangePercent": -8.03,
+  "dayChangePercent": -0.9,
+  "fiveDayChangePercent": -9.91,
   "consensus": {
     "targetPrice": 302857,
     "rating": "매수",
     "analystCount": 5
   },
-  "lastUpdated": "2026-11-12"
+  "lastUpdated": "2026-11-13"
 }
