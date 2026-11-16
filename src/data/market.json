@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 5290.53,
-      "changePercent": -0.98
+      "value": 5100.5,
+      "changePercent": -3.59
     },
     {
       "label": "KOSDAQ",
-      "value": 699.66,
-      "changePercent": 0.45
+      "value": 665.65,
+      "changePercent": -4.86
     },
     {
       "label": "USD/KRW",
-      "value": 1336.06,
+      "value": 1335.91,
       "changePercent": -0.01
     }
   ],
-  "lastUpdated": "2026-11-15",
-  "todaySignal": "토요 리포트 | 11/9주 숫자 5: SOX 8.1% 상승, 외국인 하이닉스 1조 540억원 순매도"
+  "lastUpdated": "2026-11-16",
+  "todaySignal": "모닝 숫자 11월 16일, 외국인이 판 하이닉스는 기타법인이 받았습니다"
 }
