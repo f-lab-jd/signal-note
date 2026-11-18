@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 4968.48,
-      "changePercent": -2.59
+      "value": 5067.44,
+      "changePercent": 1.99
     },
     {
       "label": "KOSDAQ",
-      "value": 650.06,
-      "changePercent": -2.34
+      "value": 662.81,
+      "changePercent": 1.96
     },
     {
       "label": "USD/KRW",
-      "value": 1335.49,
-      "changePercent": -0.03
+      "value": 1335.36,
+      "changePercent": -0.01
     }
   ],
-  "lastUpdated": "2026-11-17",
+  "lastUpdated": "2026-11-18",
   "todaySignal": "모닝 숫자 11월 17일, 하이닉스를 던진 건 외국인이 아니라 연기금이었습니다"
 }
