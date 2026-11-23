@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 4869.96,
-      "changePercent": -5.21
+      "value": 4708.54,
+      "changePercent": -3.31
     },
     {
       "label": "KOSDAQ",
-      "value": 645.68,
-      "changePercent": -5.71
+      "value": 635.45,
+      "changePercent": -1.58
     },
     {
       "label": "USD/KRW",
-      "value": 1343.33,
-      "changePercent": 0.93
+      "value": 1343.6,
+      "changePercent": 0.02
     }
   ],
-  "lastUpdated": "2026-11-22",
-  "todaySignal": "토요 리포트 | 11/16주 숫자 5: 외국인 4조 5,159억원 순매도, 원/달러는 8.5원 상승"
+  "lastUpdated": "2026-11-23",
+  "todaySignal": "모닝 숫자 11월 23일, 미국 반도체 급락은 오늘 처음 코스피에 닿습니다"
 }
