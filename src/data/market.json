@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 4708.54,
-      "changePercent": -3.31
+      "value": 5006.03,
+      "changePercent": 6.32
     },
     {
       "label": "KOSDAQ",
-      "value": 635.45,
-      "changePercent": -1.58
+      "value": 665.88,
+      "changePercent": 4.79
     },
     {
       "label": "USD/KRW",
-      "value": 1343.6,
-      "changePercent": 0.02
+      "value": 1343.51,
+      "changePercent": -0.01
     }
   ],
-  "lastUpdated": "2026-11-23",
-  "todaySignal": "모닝 숫자 11월 23일, 미국 반도체 급락은 오늘 처음 코스피에 닿습니다"
+  "lastUpdated": "2026-11-24",
+  "todaySignal": "모닝 숫자 11월 24일, 코스피가 빠진 밤 미국 반도체는 14% 올랐습니다"
 }
