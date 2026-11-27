@@ -2,20 +2,20 @@
   "indices": [
     {
       "label": "KOSPI",
-      "value": 4711.21,
-      "changePercent": 0.29
+      "value": 4915.68,
+      "changePercent": 4.34
     },
     {
       "label": "KOSDAQ",
-      "value": 655.71,
-      "changePercent": 0.78
+      "value": 708.99,
+      "changePercent": 8.13
     },
     {
       "label": "USD/KRW",
-      "value": 1344.5,
-      "changePercent": 0.11
+      "value": 1343.84,
+      "changePercent": -0.05
     }
   ],
-  "lastUpdated": "2026-11-26",
-  "todaySignal": "모닝 숫자 11월 26일, 코스피 6% 빠진 밤 미국 반도체는 0.65%만 내렸습니다"
+  "lastUpdated": "2026-11-27",
+  "todaySignal": "모닝 숫자 11월 27일, 외국인 매도 847억원으로 줄었는데 코스피는 0.29%만 올랐습니다"
 }
